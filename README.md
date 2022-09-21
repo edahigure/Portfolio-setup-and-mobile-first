@@ -11,7 +11,7 @@
 - CSS
 
 ## Getting Started
-This project is to diplay a simple index html file with a gitignore file and linters check up.
+This project is to be a base for a portafolio: setup and mobile first.
 
 ## Authors
 
