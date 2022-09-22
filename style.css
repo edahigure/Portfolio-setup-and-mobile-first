@@ -67,12 +67,12 @@ html {
     border: 1px solid #111;
   }
 
-  .social-group li {  
-    color:white;
-    flex:1;
+  .social-group li {
+    color: white;
+    flex: 1;
   }
 
-  #image{
-    flex:3;
+  #image {
+    flex: 3;
   }
 }
