@@ -21,4 +21,44 @@ html {
     display: flex;
     justify-content: space-between;
   }
+
+  .toolbar li {
+    background-color: #3E3C3C;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: white;  
+    flex: 1;
+  }
+  
+  h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    color: #FF6B00;
+  }
+
+  h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: white;  
+  }
+
+  p {
+    font-family: 'Poppins';
+    font-style: normal;
+    color:white;
+  }
+
+  #item-right {
+    text-align: right;
+  }
+  
+  .social-group ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display:flex;
+    justify-content: space-between;      
+  }
+  
 }
