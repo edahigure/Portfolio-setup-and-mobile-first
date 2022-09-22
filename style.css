@@ -45,7 +45,7 @@ html {
   p {
     font-family: 'Poppins';
     font-style: normal;
-    color:white;
+    color: white;
   }
 
   #item-right {
@@ -57,7 +57,7 @@ html {
     margin: 0;
     padding: 0;
     color: white;
-    display:flex;
+    display: flex;
     justify-content: space-between;
   }
 
