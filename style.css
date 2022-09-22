@@ -24,26 +24,26 @@ html {
 
   .toolbar li {
     background-color: #3e3c3c;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: white;
     flex: 1;
   }
 
   h1 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     color: #ff6b00;
   }
 
   h2 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: white;
   }
 
   p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: white;
   }
