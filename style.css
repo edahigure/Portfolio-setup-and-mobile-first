@@ -23,23 +23,23 @@ html {
   }
 
   .toolbar li {
-    background-color: #3E3C3C;
+    background-color: #3e3c3c;
     font-family: 'Roboto';
     font-style: normal;
-    color: white;  
+    color: white;
     flex: 1;
   }
-  
+
   h1 {
     font-family: 'Crete Round';
     font-style: normal;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   h2 {
     font-family: 'Roboto';
     font-style: normal;
-    color: white;  
+    color: white;
   }
 
   p {
@@ -51,14 +51,14 @@ html {
   #item-right {
     text-align: right;
   }
-  
+
   .social-group ul {
     list-style: none;
     margin: 0;
     padding: 0;
     color: white;
     display:flex;
-    justify-content: space-between;      
+    justify-content: space-between;
   }
-  
+
 }
