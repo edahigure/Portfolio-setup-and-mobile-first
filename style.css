@@ -20,25 +20,33 @@ html {
     color: white;
     display: flex;
     justify-content: space-between;
+    align-content: center;    
   }
 
-  .toolbar li {
+  .toolbar div {
     background-color: #3e3c3c;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;  
     flex: 1;
   }
 
-  h1 {
+  .info {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
     color: #ff6b00;
   }
 
-  h2 {
+  .intro {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: white;
   }
 
@@ -46,10 +54,6 @@ html {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: white;
-  }
-
-  #item-right {
-    text-align: right;
   }
 
   .social-group ul {
@@ -75,7 +79,7 @@ html {
   .social-group .image {
     background-image: url("Illustration-header.png");
     background-color: #1c1a19;
-    height: 75px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
