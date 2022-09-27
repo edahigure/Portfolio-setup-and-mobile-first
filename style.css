@@ -1,4 +1,13 @@
 @media only screen and (max-width: 1500px) {
-
-
+  .wrapper {
+    margin: 0 auto;
+    background-color: #1c1a19;
+    background-image: url(./images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 590px;
+  }
 }
