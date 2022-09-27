@@ -78,8 +78,7 @@
   .intro {
     width: 327px;
     height: 27px;
-    font-family: sans-serif;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -89,14 +88,14 @@
     color: #fff5e1;
     padding-left: 24px;
   }
-  
+
   p {
     width: 265px;
     height: 123px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     color: white;
     padding-left: 24px;
@@ -111,15 +110,15 @@
     justify-content: space-between;
     padding-left: 24px;
   }
-  
+
   h1:hover {
     background-color: #3e3c3c;
     color: #4c9ed9;
     border: 1px solid #111;
   }
-  
+
   .social-group li {
     color: white;
     flex: 1;
-  }  
+  }
 }
