@@ -15,11 +15,11 @@
     background-color: #3e3c3c;
     display: flex;
     align-items: center;
-    justify-content:  space-between;
-    padding: 1em;    
+    justify-content: space-between;
+    padding: 1em;
   }
 
-  .hour {    
+  .hour {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -27,10 +27,10 @@
     line-height: 16px;
     text-align: center;
     letter-spacing: -0.28px;
-    color: #ffffff;
+    color: white;
     flex: 1;
   }
-  
+
   .indicators {
     flex: 1;
     align-self: center;
