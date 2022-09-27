@@ -108,13 +108,13 @@
   }
 
   .social-group ul {
-    list-style:none;
+    list-style: none;
     margin: 0;
     padding: 0;
     color: white;
     display: flex;
-    justify-content: space-around;    
-    padding-left: 36px;    
+    justify-content: space-around;
+    padding-left: 36px;
   }
 
   h1:hover {
@@ -126,9 +126,9 @@
   .social-group li {
     width: 10px;
     color: white;
-    
     flex: 1;
   }
+
   .empty {
     flex: 4;
   }
