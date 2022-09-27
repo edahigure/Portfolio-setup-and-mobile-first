@@ -62,17 +62,17 @@
   .info {
     width: 327px;
     height: 124px;
-    font-family: 'Crete Round', sans-serif;                                                
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
     color: #ff6b00;
-    padding-top: 0px;
+    padding-top: 1px;
     padding-left: 24px;
     margin-top: 100px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
   }
 
   .intro {
@@ -87,7 +87,7 @@
     align-items: center;
     color: #fff5e1;
     padding-left: 24px;
-    padding-bottom: 0px;
+    padding-bottom: 1px;
     margin-top: 12px;
     margin-bottom: 12px;
   }
@@ -103,8 +103,8 @@
     color: white;
     padding-left: 24px;
     padding-bottom: 36px;
-    padding-top: 0px;
-    margin-top: 0px;
+    padding-top: 1px;
+    margin-top: 1px;
   }
 
   .social-group ul {
@@ -113,10 +113,8 @@
     padding: 0;
     color: white;
     display: flex;
-    justify-content:space-around;    
-
-    padding-left: 36px;
-    
+    justify-content: space-around;    
+    padding-left: 36px;    
   }
 
   h1:hover {
