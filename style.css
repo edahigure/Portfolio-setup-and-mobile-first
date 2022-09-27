@@ -36,15 +36,16 @@
     align-self: center;
     text-align: center;
   }
+
   .nav {
     background-color: #3e3c3c;
     display: flex;
     align-items: center;
-    justify-content:  space-between;
+    justify-content: space-between;
   }
 
   .name {
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -52,9 +53,9 @@
     text-align: center;
     letter-spacing: -0.28px;
     color: white;
-    flex:1;
+    flex: 1;
   }
-  
+
   .hamburger {
     flex: 1;
     align-self: center;
@@ -63,9 +64,8 @@
 
   .info {
     width: 327px;
-    height: 124px;
-    font-family:  sans-serif;
-    font-family:  'Crete Round';
+    height: 124px;    
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 56px;
@@ -74,5 +74,4 @@
     color: #ff6b00;
     padding-left: 24px;
   }
-
 }
