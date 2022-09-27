@@ -75,7 +75,7 @@
     margin-bottom: 12px;
   }
 
-  .intro {
+  .intro p{
     width: 327px;
     height: 27px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -92,7 +92,7 @@
     margin-bottom: 12px;
   }
 
-  p {
+  .intro-content p {
     width: 265px;
     height: 123px;
     font-weight: 400;
@@ -135,5 +135,11 @@
 
   .social img {
     width: 17px;
+  }
+
+  .image-work {    
+    background-image: url("./images/img-work.png");
+    width: 327px;
+    height: 237px;
   }
 }
