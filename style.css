@@ -20,7 +20,7 @@
   }
 
   .hour {
-    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -36,4 +36,43 @@
     align-self: center;
     text-align: center;
   }
+  .nav {
+    background-color: #3e3c3c;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+  }
+
+  .name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: white;
+    flex:1;
+  }
+  
+  .hamburger {
+    flex: 1;
+    align-self: center;
+    text-align: center;
+  }
+
+  .info {
+    width: 327px;
+    height: 124px;
+    font-family:  sans-serif;
+    font-family:  'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    padding-left: 24px;
+  }
+
 }
