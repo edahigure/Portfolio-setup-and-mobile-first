@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1500px) {
+  
   .wrapper {
     margin: 0 auto;
     background-color: #1c1a19;
@@ -27,7 +28,7 @@
     line-height: 16px;
     text-align: center;
     letter-spacing: -0.28px;
-    color: #FFFFFF;
+    color: #ffffff;
     flex: 1;
   }
 
@@ -52,7 +53,7 @@
     line-height: 16px;
     text-align: center;
     letter-spacing: -0.28px;
-    color: #FFFFFF;
+    color: #ffffff;
     flex:1;
   }
 
@@ -87,7 +88,7 @@
     line-height: 32px;
     display: flex;
     align-items: center;
-    color: #FFF5E1;
+    color: #fff5e1;
     padding-left: 24px;
   }
 
