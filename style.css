@@ -141,7 +141,7 @@ html {
     width: 17px;
   }
 
-  .image-work {    
+  .image-work {
     width: 327px;
     height: 327px;
     margin-top: 20px;
@@ -234,10 +234,10 @@ html {
     color: #091e42;
   }
 
-  .button1:hover {    
+  .button1:hover {
     color: black;
-    background: #FFF5E1;
-    border: 1px solid #F55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
   }
 
   .button2 {
@@ -259,12 +259,12 @@ html {
   }
 
   .button2:hover {
-    color: #F55800;
-    background: #FFF5E1;
-    border: 1px solid #F55800;
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
   }
 
-  .wrapper-cards {    
+  .wrapper-cards {
     grid-template-columns: 327px;
     grid-template-rows: repeat(3, 400px);
   }
@@ -359,17 +359,16 @@ html {
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    padding: 10px 12px;
-    background: rgba(31, 11, 102, 0.24);
+    padding: 10px 12px;   
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     height: 40px;
-    border-style: none;    
+    border-style: none;
     color: black;
-    background: #FFF5E1;    
+    background: #fff5e1;    
   }
 
   .image-card .orange-button {
@@ -405,7 +404,7 @@ html {
     letter-spacing: 0.03em;    
     flex: 1;
     color: #ff6b00;
-    background: #FFF5E1; 
+    background: #fff5e1;
     border: 1px solid #ff6b00;
   }
 
@@ -487,11 +486,11 @@ html {
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #FFF5E1;
+    background: #fff5e1;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #F55800;
+    color: #f55800;
     padding: 12px;
     margin-top: 1px;
     margin-left: 24px;
