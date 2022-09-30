@@ -19,8 +19,6 @@ only display the HTML without CSS format.
 This project will be the basis for a portfolio web page to promote my work.
 
 
-
-
 ## Authors
 
 **Edahi Antonio Gutiérrez Reyes**
