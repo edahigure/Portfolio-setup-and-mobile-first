@@ -189,7 +189,7 @@ html {
     line-height: 44px;
     align-items: center;
 
-    color: #091E42;
+    color: #091e42;
     margin-top: 1px;
     margin-bottom: 24px;
     margin-left: 24px;
@@ -198,12 +198,12 @@ html {
   .works-description {
     width: 327px;
     height: 147px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #091E42;
+    color: #091e42;
     padding-left: 24px;
     margin-bottom: 24px;
   }
@@ -217,50 +217,50 @@ html {
     padding-right: 24px;
     column-gap: 15px;
     row-gap: 15px;
- }
+  }
 
- .button1 {
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
-   padding: 10px 12px;
-   background: white;
-   border: 1px solid #8993A4;
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 15px;
-   line-height: 20px;
-   color: #091E42;
+  .button1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 12px;
+    background: white;
+    border: 1px solid #8993a4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #091E42;
   }
 
   .button1:hover {
-   background-color: #091E42;
-   color: white;
+    background-color: #091e42;
+    color: white;
   }
 
   .button2 {
-   grid-column-start: 1;
-   grid-column-end: 3;
-   color: white;
-   background: #FF6B00;
-   border: none;
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 17px;
-   line-height: 24px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   letter-spacing: 0.03em;   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+    background: #ff6b00;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.03em;
   }
 
   .button2:hover {
-    background-color: #091E42;
+    background-color: #091e42;
     color: white;
   }
 
@@ -311,19 +311,19 @@ html {
 
     color: white;    
     flex: 1;
-
   }
+
   .supporting-text {
     width: 295px;
     height: 87px;            
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;          
     color: white;    
     padding-left: 12px;
-    padding-bottom: 0px;    
+    padding-bottom: 1px;    
     flex:1
   }
 
@@ -331,8 +331,8 @@ html {
     display: grid;
     grid-template-columns: auto auto auto auto;  
     grid-template-rows: auto ;
-    padding-top:0px;
-    padding-left:0px;
+    padding-top: 1px;
+    padding-left: 1px;
     padding-right:24px;
     margin-top: 1px;
     column-gap: 15px;  
@@ -394,7 +394,7 @@ html {
     text-align: center;
     letter-spacing: 0.03em;    
     
-    background: #FF6B00;
+    background: #ff6b00;
     color: white;
     flex: 1;  
    }
@@ -415,16 +415,14 @@ html {
     text-align: center;
     letter-spacing: 0.03em;    
     
-    background-color: #091E42;
+    background-color: #091e42;
     color: white;
     flex: 1;  
 
    }
 
 
-   .card-2 {
-    /*width: 327px;*/
-    /*height: 386px;*/
+   .card-2 {  
     grid-column: 1 / 1;
     background-color: white;
     margin: 0 auto;
@@ -440,7 +438,7 @@ html {
     margin: 0 auto;
     width: 375px;
     height: 652px;    
-    background: #1C1A19; 
+    background: #1c1a19; 
     background-image: url(./images/illustration-about-me-mobile.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -461,7 +459,7 @@ html {
     font-size: 72px;
     line-height: 88px;        
     letter-spacing: 0.37px;        
-    color: #FF6B00;  
+    color: #ff6b00;  
     margin-top: 120px; 
     padding: 24px;
   }
@@ -469,24 +467,24 @@ html {
   .finale-description {
     width: 327px;
     height: 148px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #F4F5F7;      
+    color: #f4f5f7;      
     margin: 24px;
   }
 
   .get-my-resume {
     width: 161px;
     height: 28px; 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #FF6B00; 
+    background: #ff6b00; 
     
     display: flex;
     align-items: center;
@@ -494,14 +492,14 @@ html {
     color: white;
     
     padding: 12px;
-    margin-top: 0px;
+    margin-top: 1px;
     margin-left: 24px;   
   } 
 
   .get-my-resume:hover {
     width: 161px;
     height: 28px; 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -516,8 +514,6 @@ html {
     padding: 12px;
     margin-top: 0px;
     margin-left: 24px;
-
-   
   } 
 
   .line-separator {
@@ -528,7 +524,7 @@ html {
     padding-bottom: 1px; 
     margin-left: 24px;
     margin-right: 24px;
-    margin-top: 0px;
+    margin-top: 1px;
     margin-bottom: 100px;
     border-top-style: solid;
     border-top-width: 1px;
@@ -544,8 +540,7 @@ html {
     flex-direction: column;
     justify-content:flex-start;     
     align-items: center;
-    background: #1C1A19; 
-  
+    background: #1c1a19;   
   }
 
   .container-duo {      
@@ -554,16 +549,15 @@ html {
     gap: 20px;  
     justify-content: center; 
     text-align: center;       
-
   }
+
   .container-duo .item-rotated-square{
     color: white;   
     text-align: right;
     width: 18px;
     height: 18px;        
-    background: #FF6B00;
+    background: #ff6b00;
     transform: rotate(-45deg);    
-
   }
 
   .container-duo .item2{
@@ -574,7 +568,7 @@ html {
     width: 164px;
     height: 24px;
     
-    font-family: 'InaiMathi';
+    font-family: 'InaiMathi',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -582,13 +576,13 @@ html {
     
     display: flex;
     align-items: center;    
-    color: #FFFFFF;    
+    color: #ffffff;
   }
 
   .list-arrange {
     list-style: none;    
-    margin-left: 0px; 
-    padding-left: 0px;
+    margin-left: 1px; 
+    padding-left: 1px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -605,9 +599,8 @@ html {
     display: flex;
     align-items: center;
     text-align: center;    
-    color: #FFFFFF;
-    flex: 1;
-    
+    color: #ffffff;
+    flex: 1;    
   }
 
   .container-duo .item-square{
@@ -615,8 +608,7 @@ html {
     text-align: right;
     width: 18px;
     height: 18px;        
-    background: #FF6B00;    
-
+    background: #ff6b00;    
   }
   
   .container-duo .item-circle{
@@ -624,7 +616,7 @@ html {
     text-align: right;
     width: 18px;
     height: 18px;        
-    background: #FF6B00; 
+    background: #ff6b00; 
     border-radius: 150px;   
 
   }
@@ -633,9 +625,7 @@ html {
     width: 375px;
     height: 200px;         
     flex:1;
-    background: #1C1A19;   
+    background: #1c1a19;   
   }
-
-
 
 }
