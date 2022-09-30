@@ -319,7 +319,7 @@ html {
     color: white;
     padding-left: 12px;
     padding-bottom: 1px;
-    flex:1;
+    flex: 1;
   }
 
   .image-card .button-container {
@@ -328,7 +328,7 @@ html {
     grid-template-rows: auto;
     padding-top: 1px;
     padding-left: 1px;
-    padding-right:24px;
+    padding-right: 24px;
     margin-top: 1px;
     column-gap: 15px;
     margin-bottom: 24px;
@@ -506,17 +506,17 @@ html {
     margin-bottom: 100px;
     border-top-style: solid;
     border-top-width: 1px;
-    border-color:white;
+    border-color: white;
   }
 
   .wrapper-end {
     margin: 0 auto;
     width: 375px;
-    height: 1000px;         
+    height: 1000px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     background: #1c1a19;
   }
@@ -529,7 +529,7 @@ html {
     text-align: center;
   }
 
-  .container-duo .item-rotated-square{
+  .container-duo .item-rotated-square {
     color: white;
     text-align: right;
     width: 18px;
@@ -538,20 +538,19 @@ html {
     transform: rotate(-45deg);
   }
 
-  .container-duo .item2{
-    color: rgb(235, 28, 28);
+  .container-duo .item2 {
     flex: 1;
-    text-align: left; 
+    text-align: left;
     width: 164px;
     height: 24px;
-    font-family: 'InaiMathi',sans-serif;
+    font-family: 'InaiMathi', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 44px;    
+    line-height: 44px;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: white;
   }
 
   .list-arrange {
@@ -566,27 +565,27 @@ html {
   }
 
   .language-item {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 43px;        
+    line-height: 43px;    
     display: flex;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: white;
     flex: 1;
   }
 
-  .container-duo .item-square{
+  .container-duo .item-square {
     color: white;
     text-align: right;
     width: 18px;
-    height: 18px;        
+    height: 18px;
     background: #ff6b00;
   }
 
-  .container-duo .item-circle{
+  .container-duo .item-circle {
     color: white;
     text-align: right;
     width: 18px;
@@ -596,11 +595,10 @@ html {
   }
 
   .wrapper-space {
-    margin:0 auto;
+    margin: 0 auto;
     width: 375px;
     height: 200px;
-    flex:1;
+    flex: 1;
     background: #1c1a19;
   }
-
 }
