@@ -141,8 +141,7 @@ html {
     width: 17px;
   }
 
-  .image-work {
-    background-image: url("./images/img-work.png");
+  .image-work {    
     width: 327px;
     height: 327px;
     margin-top: 20px;
@@ -235,9 +234,10 @@ html {
     color: #091e42;
   }
 
-  .button1:hover {
-    background-color: #091e42;
-    color: white;
+  .button1:hover {    
+    color: black;
+    background: #FFF5E1;
+    border: 1px solid #F55800;
   }
 
   .button2 {
@@ -259,11 +259,12 @@ html {
   }
 
   .button2:hover {
-    background-color: #091e42;
-    color: white;
+    color: #F55800;
+    background: #FFF5E1;
+    border: 1px solid #F55800;
   }
 
-  .wrapper-cards {
+  .wrapper-cards {    
     grid-template-columns: 327px;
     grid-template-rows: repeat(3, 400px);
   }
@@ -366,13 +367,14 @@ html {
     font-size: 15px;
     line-height: 20px;
     height: 40px;
-    border-style: none;
-    color: white;
+    border-style: none;    
+    color: black;
+    background: #FFF5E1;    
   }
 
   .image-card .orange-button {
     width: 327px;
-    height: 24px;
+    height: 40px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -390,7 +392,7 @@ html {
 
   .image-card .orange-button:hover {
     width: 327px;
-    height: 24px;
+    height: 40px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -400,10 +402,11 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.03em;
-    background-color: #091e42;
-    color: white;
+    letter-spacing: 0.03em;    
     flex: 1;
+    color: #ff6b00;
+    background: #FFF5E1; 
+    border: 1px solid #ff6b00;
   }
 
   .card-2 {
@@ -460,7 +463,7 @@ html {
 
   .get-my-resume {
     width: 161px;
-    height: 28px;
+    height: 50px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -478,17 +481,17 @@ html {
 
   .get-my-resume:hover {
     width: 161px;
-    height: 28px;
+    height: 50px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #1a1475;
+    background: #FFF5E1;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #F55800;
     padding: 12px;
     margin-top: 1px;
     margin-left: 24px;
@@ -597,8 +600,16 @@ html {
   .wrapper-space {
     margin: 0 auto;
     width: 375px;
-    height: 200px;
+    height: 100px;
     flex: 1;
     background: #1c1a19;
+  }
+
+  .wrapper-space-white {
+    margin: 0 auto;
+    width: 375px;
+    height: 100px;
+    flex: 1;
+    background: white;
   }
 }
