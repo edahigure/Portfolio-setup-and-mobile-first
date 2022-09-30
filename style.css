@@ -359,7 +359,7 @@ html {
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    padding: 10px 12px;   
+    padding: 10px 12px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -368,7 +368,7 @@ html {
     height: 40px;
     border-style: none;
     color: black;
-    background: #fff5e1;    
+    background: #fff5e1;
   }
 
   .image-card .orange-button {
@@ -401,7 +401,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
     flex: 1;
     color: #ff6b00;
     background: #fff5e1;
