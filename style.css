@@ -144,7 +144,10 @@ html {
   .image-work {
     background-image: url("./images/img-work.png");
     width: 327px;
-    height: 237px;
+    height: 327px;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 24px;
   }
 
   .wrapper-works {
@@ -160,12 +163,12 @@ html {
   .title {
     width: 327px;
     height: 100px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 52px;  
-    color: #1C1A19;
+    line-height: 52px;
+    color: #1c1a19;
     padding-top: 1px;
     padding-bottom: 1px;
     margin-left: 24px;
@@ -176,18 +179,12 @@ html {
     border-bottom-width: 1px;
   }
 
-  .image-work {
-    width: 327px;
-    height: 245px;
-    margin-top: 20px;
-    margin-left: 24px;
-    margin-bottom: 24px;
-  }
+ 
 
   .title-multi {       
     width: 327px;
     height: 36px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -303,7 +300,7 @@ html {
   .title-post {
     width: 295px;
     height: 81px;      
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -460,7 +457,7 @@ html {
   .about-me {
     width: 327px;
     height: 79px;    
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
