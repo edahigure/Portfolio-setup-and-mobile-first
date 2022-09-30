@@ -227,12 +227,12 @@ html {
     padding: 10px 12px;
     background: white;
     border: 1px solid #8993a4;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .button1:hover {
@@ -264,7 +264,7 @@ html {
   }
 
   .wrapper-cards {
-    grid-template-columns: 327px ;
+    grid-template-columns: 327px;
     grid-template-rows: repeat(3, 400px);
   }
 
@@ -286,7 +286,7 @@ html {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-left: 24px;
     margin-right: 24px;
@@ -294,43 +294,43 @@ html {
 
   .title-post {
     width: 295px;
-    height: 81px;      
+    height: 81px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 44px; 
-    margin-top:30px;
+    line-height: 44px;
+    margin-top: 30px;
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 12px;
-    color: white;    
+    color: white;
     flex: 1;
   }
 
   .supporting-text {
     width: 295px;
-    height: 87px;            
+    height: 87px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;          
-    color: white;    
+    line-height: 24px;
+    color: white;
     padding-left: 12px;
-    padding-bottom: 1px;    
-    flex:1
+    padding-bottom: 1px;
+    flex:1;
   }
 
   .image-card .button-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;  
-    grid-template-rows: auto ;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
     padding-top: 1px;
     padding-left: 1px;
     padding-right:24px;
     margin-top: 1px;
-    column-gap: 15px;  
+    column-gap: 15px;
     margin-bottom: 24px;
   }
 
@@ -339,10 +339,10 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:left;
-    padding: 10px 12px;      
-    background: rgba(255, 255, 255, 0.24);  
-    font-family: 'Inter';
+    justify-content: left;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -350,17 +350,17 @@ html {
     height: 40px;
     border-style: none;
     color: white;
-   }
+  }
 
-   .image-card .button-container .button3:hover {
+  .image-card .button-container .button3:hover {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:left;
-    padding: 10px 12px;      
-    background: rgba(31, 11, 102, 0.24);  
-    font-family: 'Inter';
+    justify-content: left;
+    padding: 10px 12px;
+    background: rgba(31, 11, 102, 0.24);
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -368,12 +368,12 @@ html {
     height: 40px;
     border-style: none;
     color: white;
-   }
+  }
 
-   .image-card .orange-button {
+  .image-card .orange-button {
     width: 327px;
     height: 24px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -382,16 +382,16 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
     background: #ff6b00;
     color: white;
-    flex: 1;  
-   }
+    flex: 1;
+  }
 
-   .image-card .orange-button:hover {
+  .image-card .orange-button:hover {
     width: 327px;
     height: 24px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -400,13 +400,13 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
     background-color: #091e42;
     color: white;
     flex: 1;
-   }
+  }
 
-   .card-2 {  
+  .card-2 {
     grid-column: 1 / 1;
     background-color: white;
     margin: 0 auto;
@@ -420,29 +420,29 @@ html {
   .finale {
     margin: 0 auto;
     width: 375px;
-    height: 652px;    
-    background: #1c1a19; 
+    height: 652px;
+    background: #1c1a19;
     background-image: url(./images/illustration-about-me-mobile.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-items:left;
-    align-items:flex-start;
+    justify-items: left;
+    align-items: flex-start;
   }
 
   .about-me {
     width: 327px;
-    height: 79px;    
+    height: 79px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
-    line-height: 88px;        
-    letter-spacing: 0.37px;        
-    color: #ff6b00;  
-    margin-top: 120px; 
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    margin-top: 120px;
     padding: 24px;
   }
 
@@ -454,93 +454,93 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #f4f5f7;      
+    color: #f4f5f7;
     margin: 24px;
   }
 
   .get-my-resume {
     width: 161px;
-    height: 28px; 
+    height: 28px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #ff6b00; 
+    background: #ff6b00;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     padding: 12px;
     margin-top: 1px;
-    margin-left: 24px;   
-  } 
+    margin-left: 24px;
+  }
 
   .get-my-resume:hover {
     width: 161px;
-    height: 28px; 
+    height: 28px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #1a1475; 
+    background: #1a1475;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     padding: 12px;
-    margin-top: 0px;
+    margin-top: 1px;
     margin-left: 24px;
-  } 
+  }
 
   .line-separator {
     width: 327px;
     height: 2px;
     color: white;
-    padding-top: 1px; 
-    padding-bottom: 1px; 
+    padding-top: 1px;
+    padding-bottom: 1px;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 1px;
     margin-bottom: 100px;
     border-top-style: solid;
     border-top-width: 1px;
-    border-color:white;       
+    border-color:white;
   }
 
   .wrapper-end {
-    margin:0 auto;
+    margin: 0 auto;
     width: 375px;
     height: 1000px;         
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;     
+    justify-content:flex-start;
     align-items: center;
-    background: #1c1a19;   
+    background: #1c1a19;
   }
 
-  .container-duo {      
+  .container-duo {
     height: 24px;
     display: flex;
-    gap: 20px;  
-    justify-content: center; 
-    text-align: center;       
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
   }
 
   .container-duo .item-rotated-square{
-    color: white;   
+    color: white;
     text-align: right;
     width: 18px;
-    height: 18px;        
+    height: 18px;
     background: #ff6b00;
-    transform: rotate(-45deg);    
+    transform: rotate(-45deg);
   }
 
   .container-duo .item2{
     color: rgb(235, 28, 28);
-    flex: 1;  
+    flex: 1;
     text-align: left; 
     width: 164px;
     height: 24px;
@@ -550,19 +550,19 @@ html {
     font-size: 32px;
     line-height: 44px;    
     display: flex;
-    align-items: center;    
+    align-items: center;
     color: #ffffff;
   }
 
   .list-arrange {
-    list-style: none;    
-    margin-left: 1px; 
+    list-style: none;
+    margin-left: 1px;
     padding-left: 1px;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    align-items:center;
+    align-items: center;
   }
 
   .language-item {
@@ -573,34 +573,34 @@ html {
     line-height: 43px;        
     display: flex;
     align-items: center;
-    text-align: center;    
+    text-align: center;
     color: #ffffff;
-    flex: 1;    
+    flex: 1;
   }
 
   .container-duo .item-square{
-    color: white;   
+    color: white;
     text-align: right;
     width: 18px;
     height: 18px;        
-    background: #ff6b00;    
+    background: #ff6b00;
   }
-  
-  .container-duo .item-circle{
-    color: white;   
-    text-align: right;
-    width: 18px;
-    height: 18px;        
-    background: #ff6b00; 
-    border-radius: 150px;   
 
+  .container-duo .item-circle{
+    color: white;
+    text-align: right;
+    width: 18px;
+    height: 18px;
+    background: #ff6b00;
+    border-radius: 150px;
   }
+
   .wrapper-space {
     margin:0 auto;
     width: 375px;
-    height: 200px;         
+    height: 200px;
     flex:1;
-    background: #1c1a19;   
+    background: #1c1a19;
   }
 
 }
