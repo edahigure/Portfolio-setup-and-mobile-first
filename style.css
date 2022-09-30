@@ -188,7 +188,6 @@ html {
     font-size: 32px;
     line-height: 44px;
     align-items: center;
-
     color: #091e42;
     margin-top: 1px;
     margin-bottom: 24px;
@@ -269,7 +268,6 @@ html {
     grid-template-rows: repeat(3, 400px);
   }
 
-
   .card-1 {
     grid-column: 1 / 1;
     background-color: white;
@@ -284,7 +282,6 @@ html {
   .image-card {
     width: 327px;
     height: 386px;
-    
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Placeholder2.png);
     background-repeat: no-repeat;
     display: flex;
@@ -303,12 +300,10 @@ html {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px; 
-    
     margin-top:30px;
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 12px;
-
     color: white;    
     flex: 1;
   }
@@ -354,7 +349,6 @@ html {
     line-height: 20px;
     height: 40px;
     border-style: none;
-    
     color: white;
    }
 
@@ -373,27 +367,22 @@ html {
     line-height: 20px;
     height: 40px;
     border-style: none;
-    
     color: white;
-
    }
+
    .image-card .orange-button {
-    
     width: 327px;
     height: 24px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-        
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;    
-    
     background: #ff6b00;
     color: white;
     flex: 1;  
@@ -402,31 +391,25 @@ html {
    .image-card .orange-button:hover {
     width: 327px;
     height: 24px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-        
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;    
-    
     background-color: #091e42;
     color: white;
-    flex: 1;  
-
+    flex: 1;
    }
-
 
    .card-2 {  
     grid-column: 1 / 1;
     background-color: white;
     margin: 0 auto;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -447,7 +430,6 @@ html {
     flex-direction: column;
     justify-items:left;
     align-items:flex-start;
-       
   }
 
   .about-me {
@@ -485,12 +467,10 @@ html {
     font-size: 17px;
     line-height: 24px;
     background: #ff6b00; 
-    
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    
     padding: 12px;
     margin-top: 1px;
     margin-left: 24px;   
@@ -505,12 +485,10 @@ html {
     font-size: 17px;
     line-height: 24px;
     background: #1a1475; 
-    
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    
     padding: 12px;
     margin-top: 0px;
     margin-left: 24px;
@@ -564,16 +542,13 @@ html {
     color: rgb(235, 28, 28);
     flex: 1;  
     text-align: left; 
-    
     width: 164px;
     height: 24px;
-    
     font-family: 'InaiMathi',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;    
-    
     display: flex;
     align-items: center;    
     color: #ffffff;
