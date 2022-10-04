@@ -611,4 +611,27 @@ html {
     flex: 1;
     background: white;
   }
+
+  .wrapper-contact {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 375px;
+    height: 900px;
+  }
+  .content-text {
+    width: 327px;
+    height: 216px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172B4D;    
+    margin-left: 24px;
+  }
+
 }
