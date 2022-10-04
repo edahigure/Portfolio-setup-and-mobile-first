@@ -200,13 +200,17 @@
 
     <div class="wrapper-contact">
         <h5 class="content-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h5>
-        <form action="https://formspree.io/f/mjvzrpaw"method="POST">        
-            <input type="text" name="fname" maxlength="30" placeholder="Full name">
+        <form action="https://formspree.io/f/mjvzrpaw"method="POST"> 
+            <div  class="full-name"> 
+                <input type="text" name="fname" maxlength="30" placeholder="Full name" class="full-name-input">
+            </div> 
             <hr>
-            <input name="email" type="email" placeholder="Email address">
+            <div class="email-div">
+            <input name="email" type="email" placeholder="Email address" class="email-input">
+            </div>
             <hr>
             <div class="container-form">
-                <input type="text" name="text-screen" maxlength="500" value="Enter text here">
+                <input type="text" name="text-screen" maxlength="500" value="Enter text here" class="text-area">
             </div>
         </form>
         <button class="get-my-resume">
