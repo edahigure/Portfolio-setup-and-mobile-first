@@ -657,7 +657,11 @@ html {
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #979493;
+    color: #979493;    
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: black;
+    
   }
 
   .email-div {
@@ -677,5 +681,15 @@ html {
     display: flex;
     align-items: center;
     color: #979493;
+  }
+  .container-form {
+    width: 279px;
+    height: 114px;
+    padding: 12px;    
+    background: #FBF8F7;
+    margin-left: 24px;
+    margin-right: 24px;
+   
+
   }
 }
