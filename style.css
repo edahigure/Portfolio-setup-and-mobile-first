@@ -662,7 +662,7 @@ html {
   .name-li {      
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color:#dBd8d7; 
+    border-color:#dbd8d7;
     margin-right: 24px;
     margin-bottom: 36px;
     flex: 1;
@@ -674,12 +674,12 @@ html {
     height: 18px;
     left: 16px;
     right: 16px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;   
-    color: #979493;    
+    line-height: 24px;
+    color: #979493;
     border: none;
     text-align: left;
     padding-left: 24px;
@@ -688,11 +688,11 @@ html {
   .email-li {      
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color:#dbd8d7; 
+    border-color:#dbd8d7;
     margin-right: 24px;
     margin-bottom: 24px;
     flex: 1;
-    padding-bottom: 12px;              
+    padding-bottom: 12px;
   }
 
   .email-input {
@@ -700,12 +700,12 @@ html {
     height: 18px;
     left: 16px;
     right: 16px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;   
-    color: #979493;    
+    line-height: 24px;
+    color: #979493;
     border: none;
     text-align: left;
     padding-left: 24px;
@@ -721,12 +721,12 @@ html {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #3c3a39; 
-    background: #fbf8f7; 
-    margin-right: 4px;   
-    padding-left: 24px;      
+    color: #3c3a39;
+    background: #fbf8f7;
+    margin-right: 4px;
+    padding-left: 24px;
   }
-  
+
   .get-my-resume-form{
     width: 137px;
     height: 74px;
@@ -735,11 +735,11 @@ html {
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #ff6b00;    
-    color: white;           
-    border: none;   
-    flex: 1;     
-    padding: 12px;  
+    background: #ff6b00;
+    color: white;
+    border: none;
+    flex: 1;
+    padding: 12px;
   }
 
   .get-my-resume-form:hover {
@@ -750,12 +750,11 @@ html {
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background: #FFF5E1;
-    color: #ff6b00;              
-    border: none;   
-    flex: 1;     
-    padding: 12px;  
-
+    background: #fff5e1;
+    color: #ff6b00;      
+    border: none;
+    flex: 1;  
+    padding: 12px;
   }
 
   .social-group-end {
@@ -764,7 +763,7 @@ html {
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     flex: 1;
     align-self: center;
     border-top-style: solid;
@@ -774,8 +773,9 @@ html {
   .rectangle {
     height: 3px;
     width: 100px;
-    background-color: #555;    
+    background-color: #555;
     align-self: center;
-    margin-bottom: 32px;    
+    margin-bottom: 32px;
   }
+
 }
