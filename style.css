@@ -276,12 +276,7 @@ html {
   .image-card {
     width: 327px;
     height: 386px;
-    background: linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-      ),
-      url(./images/Placeholder2.png);
+    background: linear-gradient(180.45deg,rgba(38, 38, 38, 0) 0.75%,rgba(38, 38, 38, 0.9) 61.94%),url(./images/Placeholder2.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
