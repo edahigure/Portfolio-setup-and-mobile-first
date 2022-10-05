@@ -641,7 +641,7 @@ html {
   .my-ul {
     list-style: none;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
   .name-li {
@@ -693,7 +693,7 @@ html {
     color: #979493;
     border: none;
     text-align: left;
-    padding-left: 24px;      
+    padding-left: 24px;
   }
 
   .text-area {
@@ -751,7 +751,7 @@ html {
     flex: 1;
     align-self: center;
     border-top-style: solid;
-    border-top-color: #dfe1e6;              
+    border-top-color: #dfe1e6;
   }
 
   .rectangle {
@@ -761,5 +761,4 @@ html {
     align-self: center;
     margin-bottom: 32px;
   }
-
 }
