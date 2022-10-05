@@ -199,28 +199,57 @@
     <div class="wrapper-space"></div>
 
     <div class="wrapper-contact">
+
         <h5 class="content-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h5>
-        <form action="https://formspree.io/f/mjvzrpaw"method="POST"> 
-            <div  class="full-name"> 
-                <input type="text" name="fname" maxlength="30" placeholder="Full name" class="full-name-input">
-            </div> 
+        <form action="https://formspree.io/f/mjvzrpaw"method="POST" class="contact-form"> 
             
-            <div class="email-div">
-                <input name="email" type="email" placeholder="Email address" class="email-input">
-            </div>
+            <ul class="my-ul">
+
+                <li  class="name-li"> 
+                    <label for="name"> </label>
+                    <input id="name" type="text" name="name" maxlength="30" placeholder="Full name" class="name-input" required>
+                </li> 
+
+                <li class="email-li">
+                    <label for="email"> </label>
+                    <input id="email" name="email" type="email" placeholder="Email address" class="email-input" required>
+                </li>
+
+                <li>
+                    <label for="msg"> </label>
+                    <textarea id="msg" class="text-area" maxlength="500" rows="10" cols="30" name="message" required>Enter text here</textarea>
+                </li>
+
+              
+            </ul>
+
+            <button class="get-my-resume-form">
+                Get in touch
+            </button>   
+
             
-            <div class="container-form">
-                <input type="text" name="text-screen" maxlength="500" value="Enter text here" class="text-area">
-            </div>
-        </form>
-        <button class="get-my-resume">
-            Get in touch
-        </button>    
-
-
-    </div>
-
-
+        </form>           
+        <div class="wrapper-space-white"></div>    
+        <div class="social-group-end">
+                            
+            <a href="http://github.com/edahigure">
+                <img src="./images/git-dark.png"> </a>        
+        
+            <a href="https://linkedin.com/in/edahigure">                    
+            <img src="./images/linkedin-dark.png">
+                    
+            <a href="#">
+            <img src="./images/angelist-dark.png"> </a>                       
+                          
+            <a href="https://twitter.com/edahigure">
+                <img src="./images/twiter-dark.png"> </a>         
+                             
+            <a href="#">
+                <img src="./images/m-dark.png"> </a>
+                                                     
+        </div>                
+        <div class="rectangle"></div>                
+    </div>    
 
 </body>
 </html>
