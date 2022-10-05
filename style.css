@@ -742,6 +742,22 @@ html {
     padding: 12px;  
   }
 
+  .get-my-resume-form:hover {
+    width: 137px;
+    height: 74px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background: #FFF5E1;
+    color: #ff6b00;              
+    border: none;   
+    flex: 1;     
+    padding: 12px;  
+
+  }
+
   .social-group-end {
     width: 307px;
     height: 24px;
