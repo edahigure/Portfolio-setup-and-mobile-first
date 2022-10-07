@@ -528,7 +528,7 @@ a {
     width: 369px;
   }
 
-  .finale {    
+  .finale { 
     height: 541px;
     width: 1440px;
     background: #1c1a19;
@@ -582,8 +582,8 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     justify-content: center;
-    color: white; 
-    margin-left: 142px;    
+    color: white;
+    margin-left: 142px;
     border-style: none;
   }
 
@@ -601,26 +601,26 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     justify-content: center;
-    color: #ff6b00; 
-    margin-left: 142px;    
-    border-style: none;    
+    color: #ff6b00;
+    margin-left: 142px;
+    border-style: none;
   }
 
-  .wrapper-big {   
+  .wrapper-big {
     display: flex;
-    flex-direction: column; 
-    align-items: center;    
+    flex-direction: column;
+    align-items: center;
   }
 
   .wrapper-end {
     width: 1440px;
     height: 604px;
     background: #1c1a19;
-    display: flex;    
+    display: flex;
   }
 
-  .line-separator {   
-    height: 12;  
+  .line-separator {
+    height: 12;
     width: 1156px;
     margin-left: 144px;
     margin-right: 144px;
@@ -629,7 +629,7 @@ a {
     border-top-style: solid;
     border-top-width: 1px;
     border-color: white;
-    flex: 1;    
+    flex: 1;
   }
 
   .container-duo {
@@ -648,7 +648,7 @@ a {
     background: #ff6b00;
     transform: rotate(-45deg);
   }
-  
+
   .container-duo .item2 {
     flex: 1;
     text-align: left;
@@ -705,7 +705,7 @@ a {
     border-radius: 150px;
   }
 
-  .wrapper-space {    
+  .wrapper-space {
     width: 1440px;
     height: 100px;
     flex: 1;
@@ -714,36 +714,36 @@ a {
 
   .wrapper-contact {
     width: 1440px;
-    height: 700px;    
+    height: 700px;
     background-color: white;
-    display: flex;              
+    display: flex;
   }
 
   .content-text {
     height: 256px;
     width: 455px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     display: flex;
-    align-items: center;    
-    color: #262626;       
-    margin-left: 135px; 
-    margin-right: 24px; 
+    align-items: center;
+    color: #262626;
+    margin-left: 135px;
+    margin-right: 24px;
     margin-top: 130px;
   }
 
-  .contact-form {    
+  .contact-form {
     display: flex;
     flex-direction: column;
     align-items: left;
     border: solid;
-    border: none;    
+    border: none;
     flex: 1;
     margin-top: 130px;
-    margin-bottom: 230px;     
+    margin-bottom: 230px;
   }
 
   .my-ul {
@@ -755,23 +755,23 @@ a {
   .name-li {
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color: #dbd8d7;     
+    border-color: #dbd8d7;
     margin-bottom: 36px;
     flex: 1;
     padding-bottom: 12px;
-    margin-right: 172px;   
+    margin-right: 172px;
   }
 
   .name-input {
     width: 584px;
-    height: 18px;    
+    height: 18px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #979493;
-    border: none;    
+    border: none;
     text-align: left;
     padding-left: 24px;
   }
@@ -779,11 +779,11 @@ a {
   .email-li {
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color: #dbd8d7;    
+    border-color: #dbd8d7;
     margin-bottom: 24px;
     flex: 1;
     padding-bottom: 12px;
-    margin-right: 172px;    
+    margin-right: 172px;
   }
 
   .email-input {
@@ -819,40 +819,40 @@ a {
 
   .get-in-touch-form {
     height: 48px;
-    width: 137px;    
+    width: 137px;
     padding: 12px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;        
+    line-height: 24px;
     text-align: center;
-    letter-spacing: 0.03em;               
+    letter-spacing: 0.03em;           
     background: #ff6b00;
     color: white;
-    border: none;    
-    margin-left: 40px; 
+    border: none;
+    margin-left: 40px;
   }
 
   .get-in-touch-form:hover {
     height: 48px;
-    width: 137px;    
+    width: 137px;
     padding: 12px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;        
+    line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
     background: #fff5e1;
     color: #ff6b00;
-    border: none;    
+    border: none;
   }
 
   .wrapper-B {
     width: 1440px;
-    height: 44px;    
+    height: 44px;
     background-color: white;
     display: flex;
     justify-items: right;
@@ -863,17 +863,18 @@ a {
 
   .social-group-end {
     width: 307px;
-    height: 24px;    
+    height: 24px;
     background-color: white;
-    color: white;    
-    justify-items: space-around;        
-    gap: 30px;    
+    color: white;
+    justify-items: space-around;
+    gap: 30px;
     display: flex;
     align-items: center;
     justify-items: center;
     margin-left:600px;
-    padding-top: 12px;    
+    padding-top: 12px;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -883,7 +884,7 @@ a {
     align-items: center;
     justify-content: space-between;
   }
-  
+
   .name {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -896,7 +897,7 @@ a {
     padding-left: 36px;
     flex: 1;
   }
-  
+
   .hamburger {
     flex: 1;
     align-self: right;
@@ -916,7 +917,7 @@ a {
     width: 375px;
     height: 600px;
   }
-  
+
   .info {
     width: 327px;
     height: 124px;
@@ -1010,7 +1011,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     width: 375px;
-    height: 3600px;    
+    height: 3600px;
   }
 
   .title {
@@ -1126,7 +1127,7 @@ a {
 
   .card-0 {
     grid-column: 1 / 1;
-    grid-row: 1 / 2; 
+    grid-row: 1 / 2;
     display: flex;
     flex-direction: column;
     height: 386px;
@@ -1146,7 +1147,7 @@ a {
     background-color: #ff6b00;
     color: white;
     flex: 1;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
