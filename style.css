@@ -1,5 +1,6 @@
 html {
   background: #e5e5e5;
+  overflow-x: scroll;  
 }
 
 a {
@@ -9,6 +10,7 @@ a {
 
 @media only screen and (min-width: 769px) {
   .wrapper {
+    margin: 0 auto;
     width: 1440px;
     height: 942px;
     background-color: #1c1a19;
@@ -24,9 +26,36 @@ a {
     background-color: #3e3c3c;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-items: space-between;    
     flex: 1;
   }
+
+  .menu{        
+    flex: 1;  
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .portfolio-nav {
+    flex: 1;
+  }
+
+  .contact-nav {
+    flex: 1;
+  }
+
+  .about-nav {
+    flex: 1;
+  }
+
+  .union-nav {
+    flex: 1;
+  }
+
+ .hamburger-nav {   
+   display: none;
+ }
+
 
   .name {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -122,6 +151,7 @@ a {
   }
 
   .wrapper-works {
+    margin: 0 auto;
     background-color: white;
     width: 1440px;
     height: 1810px;
@@ -528,6 +558,7 @@ a {
   }
 
   .finale {
+    margin: 0 auto;
     height: 541px;
     width: 1440px;
     background: #1c1a19;
@@ -612,6 +643,7 @@ a {
   }
 
   .wrapper-end {
+    margin: 0 auto;    
     width: 1440px;
     height: 604px;
     background: #1c1a19;
@@ -705,6 +737,7 @@ a {
   }
 
   .wrapper-space {
+    margin: 0 auto;
     width: 1440px;
     height: 100px;
     flex: 1;
@@ -712,6 +745,7 @@ a {
   }
 
   .wrapper-contact {
+    margin: 0 auto;
     width: 1440px;
     height: 700px;
     background-color: white;
@@ -850,6 +884,7 @@ a {
   }
 
   .wrapper-B {
+    margin: 0 auto;
     width: 1440px;
     height: 44px;
     background-color: white;
@@ -895,7 +930,12 @@ a {
     flex: 1;
   }
 
-  .hamburger {
+  .menu{        
+    flex: 1;  
+    display: none;    
+  }
+
+  .hamburger-nav {
     flex: 1;
     align-self: right;
     text-align: right;
