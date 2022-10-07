@@ -528,7 +528,7 @@ a {
     width: 369px;
   }
 
-  .finale { 
+  .finale {
     height: 541px;
     width: 1440px;
     background: #1c1a19;
@@ -827,7 +827,7 @@ a {
     font-size: 17px;
     line-height: 24px;
     text-align: center;
-    letter-spacing: 0.03em;           
+    letter-spacing: 0.03em;
     background: #ff6b00;
     color: white;
     border: none;
@@ -869,8 +869,7 @@ a {
     justify-items: space-around;
     gap: 30px;
     display: flex;
-    align-items: center;
-    justify-items: center;
+    align-items: center;    
     margin-left:600px;
     padding-top: 12px;
   }
@@ -1153,7 +1152,7 @@ a {
     font-size: 17px;
     line-height: 24px;
     text-align: center;
-    letter-spacing: 0.03em;       
+    letter-spacing: 0.03em;
   }
 
   .card-0 .down:hover {
@@ -1237,7 +1236,6 @@ a {
     column-gap: 15px;
     margin-bottom: 24px;
     flex:1;
-    
   }
 
   .button-container .button3 {
