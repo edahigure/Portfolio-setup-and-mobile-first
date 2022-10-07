@@ -8,7 +8,6 @@ a {
 }
 
 @media only screen and (min-width: 769px) {
-
   .wrapper {
     width: 1440px;
     height: 942px;
@@ -52,7 +51,7 @@ a {
   .main-page {
     display: flex;
     flex: 20;
-    align-items: center;  
+    align-items: center;
   }
 
   .wrapper-extra {
@@ -151,13 +150,13 @@ a {
     flex: 1;
   }
 
-  .title .line {  
+  .title .line {
     width: 315px;
-    height: 52px;      
+    height: 52px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color: rgb(41, 37, 37);  
-    padding-top: 90px; 
+    border-color: rgb(41, 37, 37);
+    padding-top: 90px;
     margin-left: 24px;
     margin-right: 143px;
     flex: 3;
@@ -170,39 +169,39 @@ a {
 
   .image-work {
     width: 684px;
-    height: 448px;    
+    height: 448px;
     margin-left: 141px;
     flex: 1;
   }
 
-  .extra-wrapper {    
+  .extra-wrapper {
     flex: 1;
-    margin-right: 143px;  
-    margin-left: 24px;  
+    margin-right: 143px;
+    margin-left: 24px;
   }
 
   .title-multi {
     width: 448px;
-    height: 48px;    
-    font-family: 'Crete Round';
+    height: 48px;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #091E42;
+    color: #091e42;
   }
-  
+
   .works-description {
     width: 448px;
     height: 140px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;    
-    color: #091E42;
+    line-height: 28px;
+    color: #091e42;
   }
 
   .button-container-A {
@@ -273,14 +272,15 @@ a {
     row-gap: 37px;
   }
 
-  .card-0 {        
-    grid-column: 1 / 1;    
-    grid-row: 1 / 2; 
+  .card-0 {
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
     display: flex;
     flex-direction: column;
     height: 435px;
     width: 369px;
   }
+
   .card-0 .up {
     flex: 15;
     background-image: url(./images/card-0-back.png);
@@ -292,26 +292,26 @@ a {
     justify-content: center;
     background-color: #ff6b00;
     color: white;
-    flex: 1;        
-    font-family: 'Inter';
+    flex: 1;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;    
+    line-height: 24px;
     text-align: center;
-    letter-spacing: 0.03em;        
+    letter-spacing: 0.03em;
   }
 
   .card-0 .down:hover {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;    
+    line-height: 24px;
     border-style: none;
     color: #ff6b00;
     background: #fff5e1;
@@ -319,37 +319,36 @@ a {
   }
 
   .card-1 {
-    grid-column: 1 / 2;    
-    grid-row: 2 / 3; 
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
     background-color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 435px;
-    width: 369px;       
+    width: 369px;
   }
 
   .image-card {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Placeholder2.png);
-    background-repeat: no-repeat;    
-    size: contain;     
+    background-repeat: no-repeat;
+    size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     flex: 15;
     height: 390px;
-    width: 369px;       
+    width: 369px;
   }
 
-  .title-post {    
+  .title-post {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 44px;
-    margin-top: 30px;
+    line-height: 44px;    
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 12px;
