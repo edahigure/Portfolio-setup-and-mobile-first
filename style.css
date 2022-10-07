@@ -30,7 +30,7 @@ a {
     flex: 1;
   }
 
-  .menu{
+  .menu {
     flex: 1;
     display: flex;
     justify-content: space-around;
@@ -52,9 +52,9 @@ a {
     flex: 1;
   }
 
- .hamburger-nav {
-   display: none;
- }
+  .hamburger-nav {
+    display: none;
+  }
 
   .name {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -929,7 +929,7 @@ a {
     flex: 1;
   }
 
-  .menu{
+  .menu {
     flex: 1;
     display: none;
   }
