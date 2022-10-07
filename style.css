@@ -349,7 +349,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 44px;    
+    line-height: 44px;
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 12px;
@@ -437,7 +437,7 @@ a {
     flex: 1;
   }
 
-  .orange-button:hover {    
+  .orange-button:hover {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -455,8 +455,8 @@ a {
   }
 
   .card-2 {
-    grid-column: 2 / 3;    
-    grid-row: 1 / 2; 
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
     background-color: white;
     margin: 0 auto;
     display: flex;
@@ -473,65 +473,64 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     flex: 15;
     height: 390px;
-    width: 369px;       
+    width: 369px;
   }
 
   .card-3 {
     grid-column: 2 / 3;
-    grid-row: 2 / 3; 
+    grid-row: 2 / 3;
     background-color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 435px;
-    width: 369px; 
+    width: 369px;
   }
 
   .card-4 {
     grid-column: 3 / 4;
-    grid-row: 1 / 2; 
+    grid-row: 1 / 2;
     background-color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 435px;
-    width: 369px; 
+    width: 369px;
   }
 
   .image-card-C {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-4-back.png);
-    background-repeat: no-repeat;    
-    size: contain;     
+    background-repeat: no-repeat;
+    size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     flex: 15;
     height: 390px;
-    width: 369px;       
+    width: 369px;
   }
 
   .card-5 {
     grid-column: 3 / 4;
-    grid-row: 2 / 3; 
+    grid-row: 2 / 3;
     background-color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 435px;
-    width: 369px; 
+    width: 369px;
   }
 
-  .finale {
-    
+  .finale {    
     height: 541px;
-    width: 1440px;    
+    width: 1440px;
     background: #1c1a19;
     background-image: url(./images/illustration-about-me.png);
     background-repeat: no-repeat;
@@ -541,34 +540,33 @@ a {
     display: flex;
     flex-direction: column;
     justify-items: left;
-    align-items: flex-start;   
-    margin-top: 141; 
+    align-items: flex-start;
+    margin-top: 141;
   }
 
   .about-me {
     width: 566px;
     height: 78px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    color: #F55800;  
-    margin-left: 142px;  
+    color: #f55800;
+    margin-left: 142px;
   }
 
   .finale-description {
     width: 566px;
     height: 148px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
-    margin-left: 142px; 
+    color: #f4f5f7;
+    margin-left: 142px;
   }
-
 
   .get-my-resume {
     width: 161px;
