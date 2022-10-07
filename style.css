@@ -1,6 +1,6 @@
 html {
   background: #e5e5e5;
-  overflow-x: scroll;  
+  overflow-x: scroll;
 }
 
 a {
@@ -26,14 +26,14 @@ a {
     background-color: #3e3c3c;
     display: flex;
     align-items: center;
-    justify-items: space-between;    
+    justify-items: space-between;
     flex: 1;
   }
 
-  .menu{        
-    flex: 1;  
+  .menu{
+    flex: 1;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
   }
 
   .portfolio-nav {
@@ -52,10 +52,9 @@ a {
     flex: 1;
   }
 
- .hamburger-nav {   
+ .hamburger-nav {
    display: none;
  }
-
 
   .name {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -643,7 +642,7 @@ a {
   }
 
   .wrapper-end {
-    margin: 0 auto;    
+    margin: 0 auto;
     width: 1440px;
     height: 604px;
     background: #1c1a19;
@@ -930,9 +929,9 @@ a {
     flex: 1;
   }
 
-  .menu{        
-    flex: 1;  
-    display: none;    
+  .menu{
+    flex: 1;
+    display: none;
   }
 
   .hamburger-nav {
