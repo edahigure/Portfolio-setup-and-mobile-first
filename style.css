@@ -115,6 +115,25 @@ a {
     padding-left: 24px;
     margin-top: 100px;
     margin-bottom: 12px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .info:hover {
+    width: 327px;
+    height: 124px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;    
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    padding-top: 1px;
+    padding-left: 24px;
+    margin-top: 100px;
+    margin-bottom: 12px;
+    font-size: 156px;
   }
 
   .intro p {
@@ -132,6 +151,23 @@ a {
     padding-bottom: 1px;
     margin-top: 12px;
     margin-bottom: 12px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .intro-content p {
