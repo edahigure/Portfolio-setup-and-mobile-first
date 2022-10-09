@@ -107,7 +107,7 @@ a {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 36px;
     line-height: 64px;
     letter-spacing: 0.37px;
     color: #ff6b00;
@@ -115,6 +115,13 @@ a {
     padding-left: 24px;
     margin-top: 100px;
     margin-bottom: 12px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .info:hover {
+    font-size: 56px;
   }
 
   .intro p {
@@ -132,6 +139,22 @@ a {
     padding-bottom: 1px;
     margin-top: 12px;
     margin-bottom: 12px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .intro-content p {
@@ -360,7 +383,12 @@ a {
   }
 
   .image-card {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Placeholder2.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/Placeholder2.png);
     background-repeat: no-repeat;
     size: contain;
     display: flex;
@@ -495,7 +523,12 @@ a {
   }
 
   .image-card-B {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-1-back.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/card-1-back.png);
     background-repeat: no-repeat;
     size: contain;
     display: flex;
@@ -532,7 +565,12 @@ a {
   }
 
   .image-card-C {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-4-back.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/card-4-back.png);
     background-repeat: no-repeat;
     size: contain;
     display: flex;
@@ -1222,7 +1260,12 @@ a {
   .image-card {
     width: 327px;
     height: 386px;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Placeholder2.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/Placeholder2.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -1362,7 +1405,12 @@ a {
   .image-card-B {
     width: 327px;
     height: 386px;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-1-back.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/card-1-back.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -1386,7 +1434,12 @@ a {
   .image-card-C {
     width: 327px;
     height: 386px;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-4-back.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/card-4-back.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
