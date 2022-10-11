@@ -157,7 +157,6 @@ a {
     animation-direction: alternate;
   }
 
-  
   @keyframes slidein {
     from {
       margin-left: 100%;
