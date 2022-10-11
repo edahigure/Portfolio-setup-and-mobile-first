@@ -567,10 +567,7 @@ a {
   }
 
   .image-card-C {
-    background: linear-gradient(180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
-      url(./images/card-4-back.png);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-4-back.png);
     background-repeat: no-repeat;
     size: contain;
     display: flex;
@@ -1400,12 +1397,7 @@ a {
   .image-card-B {
     width: 327px;
     height: 386px;
-    background: linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-      ),
-      url(./images/card-1-back.png);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-1-back.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
