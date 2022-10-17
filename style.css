@@ -26,7 +26,7 @@ a {
     background-color: #3e3c3c;
     display: flex;
     align-items: center;
-    justify-items: space-between;
+    justify-items: center;
     flex: 1;
   }
 
@@ -71,7 +71,7 @@ a {
 
   .hamburger {
     flex: 1;
-    align-self: right;
+    align-self: start;
     text-align: right;
     padding-right: 36px;
   }
@@ -396,8 +396,7 @@ a {
 
   .image-card {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Placeholder2.png);
-    background-repeat: no-repeat;
-    size: contain;
+    background-repeat: no-repeat;    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -532,7 +531,6 @@ a {
   .image-card-B {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-1-back.png);
     background-repeat: no-repeat;
-    size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -569,7 +567,6 @@ a {
   .image-card-C {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/card-4-back.png);
     background-repeat: no-repeat;
-    size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -605,7 +602,7 @@ a {
     flex-direction: column;
     justify-items: left;
     align-items: flex-start;
-    margin-top: 141;
+    margin-top: 141px;
   }
 
   .about-me {
@@ -685,7 +682,7 @@ a {
   }
 
   .line-separator {
-    height: 12;
+    height: 12px;
     width: 1156px;
     margin-left: 144px;
     margin-right: 144px;
