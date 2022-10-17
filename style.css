@@ -396,7 +396,7 @@ a {
 
   .image-card {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Placeholder2.png);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -802,7 +802,7 @@ a {
   .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     border: solid;
     border: none;
     flex: 1;
@@ -931,7 +931,7 @@ a {
     height: 24px;
     background-color: white;
     color: white;
-    justify-items: space-around;
+    justify-items: center;
     gap: 30px;
     display: flex;
     align-items: center;
@@ -968,7 +968,7 @@ a {
 
   .hamburger-nav {
     flex: 1;
-    align-self: right;
+    align-self:flex-end;
     text-align: right;
     padding-right: 36px;
   }
@@ -1648,7 +1648,7 @@ a {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-items: space-around;
+    justify-items:center;
     align-content: space-around;
     width: 375px;
     height: 900px;
