@@ -880,13 +880,13 @@ a {
 
   .mobile-menu {
     display: none;
-    margin: 0 auto;   
+    margin: 0 auto;
     flex-direction: column;
     justify-content: flex-end;
     width: 375px;
     height: 812px;
     float: inline-start;
-    background: #3c3a39;    
+    background: #3c3a39;
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   }
 
@@ -945,9 +945,8 @@ a {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #6f6c6b;
-    margin: 5px;
+    margin-bottom: 5px;
   }
-
 }
 
 @media only screen and (min-width: 1600px) {
