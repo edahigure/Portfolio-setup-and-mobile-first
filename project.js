@@ -1,3 +1,24 @@
+
+let intro_obj = 
+{
+    name: 'Multi-Post Stories',
+    description: `Lorem Ipsum is simply dummy text of the printing and
+    typesetting industry. Lorem Ipsum has been the 
+    industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and 
+    scrambled it to make a type specimen book. It
+    has survived not only five centuries, but
+    also the leap into electronic typesetting, 
+    remaining essent`,        
+    featured: 'feature-2',
+    image: './images/Snapshoot Portfolio.png',
+    technologies: [ 'css','html','bootstrap','Ruby','Ruby on rails'],
+    link_to_live_version: 'https://edahigure.github.io/Portfolio-setup-and-mobile-first/',
+    link_to_source: 'https://github.com/edahigure/Portfolio-setup-and-mobile-first'
+}
+
+
+
 let project_array = [
     
 
@@ -122,7 +143,7 @@ for(let i = 0 ; i<project_array.length; i++ ) {
         bigString += ''; 
         bigString += `        <div class="card-${i}">
             <div class="up"></div>
-            <div class="down"> See project</div>
+            <div class="down" id="orange-button-${i}"> See project</div>
         </div>`; 
     }
     if(i>0){
@@ -158,14 +179,9 @@ let wrapper_works = document.querySelector('.wrapper-works');
 wrapper_works.innerHTML = bigString ;
 
 
-
-let card_intro = document.getElementById('orange-button-A');
-
-function show_project_intro() {
-    
-    let pop_up_window = document.querySelector('.pop-up-window');
-
-    pop_up_window.innerHTML=`
+function create_html_popup(card)
+{
+    let html_str=`
     <div class="overlay">           
     </div>
     
@@ -173,12 +189,12 @@ function show_project_intro() {
         
          <div class="container-duo-pop">
 
-            <h3 class="title-multi" >
-            Multi-Post Stories
+            <h3 class="title-multi-popup" >
+                ${card.name}
             </h3>
 
-            <div class="cross">
-            <a href="#" class="close_item"><img src="./images/cross_2.png"></a>
+            <div class="cross-popup">     
+            <a  id="close-popup"><img src="./images/cross_2.png"></a>
             </div>               
 
          </div>
@@ -188,46 +204,131 @@ function show_project_intro() {
             
                     
             <ul class="button-container-popup">
-                <li class="button1">html</li>
-                <li class="button1">Bootstrap</li>
-                <li class="button1">Ruby on rails</li>                                
+                <li class="button1">${card.technologies[1]}</li>
+                <li class="button1">${card.technologies[2]}</li>
+                <li class="button1">${card.technologies[4]}</li>                                
             </ul>  
 
-            <img src="./images/Snapshoot Portfolio.png" class="image-work">
+            <img src="${card.image}" class="image-work">
 
             <p class="works-description-popup">
-            Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It
-            has survived not only five centuries, but
-            also the leap into electronic typesetting, 
-            remaining essent
+                ${card.description}
             </p>
             
 
         </div>            
         <div class="button-duo-popup">
-            <button class="orange-button-popup">See Live</button>
-            <button class="orange-button-popup">See Source</button>
+
+            <div class="orange-button-popup">  <a href="${card.link_to_live_version}" > See Live  <img src="./images/live.png"></a> </div>                                
+            <div class="orange-button-popup">  <a href="${card.link_to_source}" > See Source  <img src="./images/git-source.png"></div>
+            
         <div>
 
 
     </div>
     
     `;
-//    let overlay = document.createElement('div');
-//       overlay.className = 'overlay';          
-//       pop_up_window.appendChild(overlay);    
+    return html_str;
+
+}
+
+// Here a global variable I need
+
+let close_popup;
+
+function close_popup_func()
+{
+    let pop_up_window = document.querySelector('.pop-up-window');
+    let overlay = document.querySelector('.overlay');
+    let container_pop_up = document.querySelector('.container-pop-up');
+    overlay.style.display = 'none';     
+    container_pop_up.style.display = 'none';    
+    pop_up_window.innerHTML='';
+
+}
+
+let card_intro = document.getElementById('orange-button-A');
+
+function show_project_intro() {    
+    let pop_up_window = document.querySelector('.pop-up-window');
+    pop_up_window.innerHTML=create_html_popup(intro_obj);
 
     let overlay = document.querySelector('.overlay');
     let container_pop_up = document.querySelector('.container-pop-up');
+    
     overlay.style.display = 'flex';     
-    container_pop_up.style.display = 'flex'; 
-   
+    container_pop_up.style.display = 'flex';    
+
+    close_popup = document.getElementById('close-popup');
+    console.log(close_popup);
+
+    close_popup.addEventListener('click',close_popup_func);    
+
 }
+
 card_intro.addEventListener('click',show_project_intro);
+
+
+
+
+
+function show_card(card) {    
+    let pop_up_window = document.querySelector('.pop-up-window');
+    pop_up_window.innerHTML=create_html_popup(card);
+
+    let overlay = document.querySelector('.overlay');
+    let container_pop_up = document.querySelector('.container-pop-up');
+    
+    overlay.style.display = 'flex';     
+    container_pop_up.style.display = 'flex';    
+
+    close_popup = document.getElementById('close-popup');
+    console.log(close_popup);
+
+    close_popup.addEventListener('click',close_popup_func);    
+
+}
+
+
+let card_0 = document.getElementById('orange-button-0');
+let card_1 = document.getElementById('orange-button-1');
+let card_2 = document.getElementById('orange-button-2');
+let card_3 = document.getElementById('orange-button-3');
+let card_4 = document.getElementById('orange-button-4');
+let card_5 = document.getElementById('orange-button-5');
+
+function show_card_0() {
+    show_card(project_array[0]);
+}
+
+function show_card_1() {
+    show_card(project_array[1]);
+}
+
+function show_card_2() {
+    show_card(project_array[2]);
+}
+
+function show_card_3() {
+    show_card(project_array[3]);
+}
+
+function show_card_4() {
+    show_card(project_array[4]);
+}
+
+function show_card_5() {
+    show_card(project_array[5]);
+}
+
+
+card_0.addEventListener('click',show_card_0);
+card_1.addEventListener('click',show_card_1);
+card_2.addEventListener('click',show_card_2);
+card_3.addEventListener('click',show_card_3);
+card_4.addEventListener('click',show_card_4);
+card_4.addEventListener('click',show_card_5);
+
 
 
 
