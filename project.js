@@ -199,34 +199,22 @@ function create_html_popup(card)
 
          </div>
 
-         
-        <div class="extra-wrapper" > 
-            
-                    
-            <ul class="button-container-popup">
+         <ul class="button-container-popup">
                 <li class="button1">${card.technologies[1]}</li>
                 <li class="button1">${card.technologies[2]}</li>
                 <li class="button1">${card.technologies[4]}</li>                                
             </ul>  
-
-            <img src="${card.image}" class="image-work">
-
+        <div class="extra-wrapper-popup" > 
+            <img src="${card.image}" class="image-work-popup">
             <p class="works-description-popup">
                 ${card.description}
             </p>
-            
-
         </div>            
         <div class="button-duo-popup">
-
             <div class="orange-button-popup">  <a href="${card.link_to_live_version}" > See Live  <img src="./images/live.png"></a> </div>                                
             <div class="orange-button-popup">  <a href="${card.link_to_source}" > See Source  <img src="./images/git-source.png"></div>
-            
         <div>
-
-
     </div>
-    
     `;
     return html_str;
 

@@ -996,6 +996,28 @@ a {
     color: #172b4d;        
   }
 
+   .button-container-popup {
+    list-style: none;
+    display: flex;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: 50px;
+    margin-left: -75%;
+    padding-right: 24px;
+    column-gap: 15px;    
+  }
+
+  .extra-wrapper-popup {
+    display: flex;
+  }
+  
+  .extra-wrapper-popup > img {
+    margin-left: 0.1px;
+  }
+
+  .image-work-popup {
+    margin-left: -75%;
+  }
+
 }
 
 @media only screen and (max-width: 700px) {
