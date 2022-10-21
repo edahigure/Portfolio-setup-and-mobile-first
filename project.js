@@ -1,20 +1,27 @@
-
-let intro_obj = 
-{
-    name: 'Multi-Post Stories',
-    description: `Lorem Ipsum is simply dummy text of the printing and
+let Lorem_Ipsum_str=`Lorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the 
     industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and 
     scrambled it to make a type specimen book. It
     has survived not only five centuries, but
     also the leap into electronic typesetting, 
-    remaining essent`,        
+    remaining essent`;
+
+let daily_selection_str="A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard";
+
+
+let intro_obj = 
+{
+    name: 'intro',
+    title_desktop: 'Keeping track of hundreds  of components website',    
+    title_mobile: 'Multi Post Stories',
+    description: Lorem_Ipsum_str,        
     featured: 'feature-2',
-    image: './images/Snapshoot Portfolio.png',
+    image: './images/Snapshoot_Portfolio_big.png',
     technologies: [ 'css','html','bootstrap','Ruby','Ruby on rails'],
     link_to_live_version: 'https://edahigure.github.io/Portfolio-setup-and-mobile-first/',
-    link_to_source: 'https://github.com/edahigure/Portfolio-setup-and-mobile-first'
+    link_to_source: 'https://github.com/edahigure/Portfolio-setup-and-mobile-first',
+    title_post: 'Multi Post Stories'
 }
 
 
@@ -24,9 +31,11 @@ let project_array = [
 
      {
         name: 'card-0',
-        description: `Here goes description`,        
+        title_desktop: 'Profesional Printing',
+        title_mobile: 'Profesional Printing',
+        description: Lorem_Ipsum_str,        
         featured: 'feature-2',
-        image: './images/img-work-desktop.png',
+        image: './images/card-0-back.png',
         technologies: [ 'css','html','bootstrap','Ruby'],
         link_to_live_version: '#',
         link_to_source: '#',
@@ -34,9 +43,11 @@ let project_array = [
      },
      {
         name: 'card-1',
-        description: `No description`,        
+        title_desktop: 'Keeping track of hundreds  of components website',
+        title_mobile: 'Multi Post Stories',
+        description: Lorem_Ipsum_str,
         featured: 'feature-2',
-        image: './images/img-work-desktop.png',
+        image: './images/Snapshoot_Portfolio_big.png',
         technologies: [ 'css','html','bootstrap','Ruby'],
         link_to_live_version: '#',
         link_to_source: '#',
@@ -46,9 +57,11 @@ let project_array = [
      },
      {
         name: 'card-2',
-        description: `No description`,        
+        title_desktop: 'Keeping track of hundreds  of components website',
+        title_mobile: 'Multi Post Stories',
+        description: Lorem_Ipsum_str,
         featured: 'feature-2',
-        image: './images/img-work-desktop.png',
+        image: './images/Snapshoot_Portfolio_big.png',
         technologies: [ 'css','html','bootstrap','Ruby'],
         link_to_live_version: '#',
         link_to_source: '#',
@@ -58,9 +71,11 @@ let project_array = [
      },
      {
         name: 'card-3',
-        description: `No description`,        
+        title_desktop: 'Keeping track of hundreds  of components website',
+        title_mobile: 'Multi Post Stories',
+        description: Lorem_Ipsum_str,
         featured: 'feature-2',
-        image: './images/img-work-desktop.png',
+        image: './images/Snapshoot_Portfolio_big.png',
         technologies: [ 'css','html','bootstrap','Ruby'],
         link_to_live_version: '#',
         link_to_source: '#',
@@ -70,9 +85,11 @@ let project_array = [
      },
      {
         name: 'card-4',
-        description: `No description`,        
+        title_desktop: 'Keeping track of hundreds  of components website',
+        title_mobile: 'Multi Post Stories',
+        description: Lorem_Ipsum_str,
         featured: 'feature-2',
-        image: './images/img-work-desktop.png',
+        image: './images/Snapshoot_Portfolio_big.png',
         technologies: [ 'css','html','bootstrap','Ruby'],
         link_to_live_version: '#',
         link_to_source: '#',
@@ -82,16 +99,20 @@ let project_array = [
      },
      {
         name: 'card-5',
-        description: `No description`,        
+        title_desktop: 'Keeping track of hundreds  of components website',
+        title_mobile: 'Multi Post Stories',
+        description: Lorem_Ipsum_str,
         featured: 'feature-2',
-        image: './images/img-work-desktop.png',
+        image: './images/Snapshoot_Portfolio_big.png',
         technologies: [ 'css','html','bootstrap','Ruby'],
         link_to_live_version: '#',
         link_to_source: '#',
         title_post:'Website Protfolio',
         supporting_text: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
         type_image: 'image-card-C'
-     }
+     },
+     
+
 
  ];
 
@@ -180,43 +201,59 @@ wrapper_works.innerHTML = bigString ;
 
 
 function create_html_popup(card)
-{
+{       
     let html_str=`
     <div class="overlay">           
     </div>
-    
+
     <div class="container-pop-up">
-        
-         <div class="container-duo-pop">
+                     
+    <div class="wrapper-0">        
+        <div class="wrapper-1">        
+            <div class="green"> 
+                <h2 class="title-multi-popup-desktop" >
+                    ${card.title_desktop}
+                </h2>
+                <h2 class="title-multi-popup-mobile" >
+                    ${card.title_mobile}
+                </h2>
+            </div>                
+            <div class="yellow"> 
+                <div class="cross-popup">     
+                <a  id="close-popup"><img src="./images/cross_2.png"></a>
+                </div> 
+            </div>            
+        </div>
 
-            <h3 class="title-multi-popup" >
-                ${card.name}
-            </h3>
+        <div class="wrapper-2">
+            <div class="button1">${card.technologies[1]}</div>
+            <div class="button1">${card.technologies[2]}</div>
+            <div class="button1">${card.technologies[3]}</div>                                
+        </div>  
 
-            <div class="cross-popup">     
-            <a  id="close-popup"><img src="./images/cross_2.png"></a>
-            </div>               
-
-         </div>
-
-         <ul class="button-container-popup">
-                <li class="button1">${card.technologies[1]}</li>
-                <li class="button1">${card.technologies[2]}</li>
-                <li class="button1">${card.technologies[4]}</li>                                
-            </ul>  
-        <div class="extra-wrapper-popup" > 
-            <img src="${card.image}" class="image-work-popup">
-            <p class="works-description-popup">
+        <div class="wrapper-3">        
+            <div class="red"> 
+                <img src="${card.image}" class="image-work-popup">
+            </div>
+            <div class="wrapper-4">                
+                <div class="brown"> 
+                   <p class="works-description-popup">
                 ${card.description}
-            </p>
-        </div>            
-        <div class="button-duo-popup">
-            <div class="orange-button-popup">  <a href="${card.link_to_live_version}" > See Live  <img src="./images/live.png"></a> </div>                                
-            <div class="orange-button-popup">  <a href="${card.link_to_source}" > See Source  <img src="./images/git-source.png"></div>
-        <div>
-    </div>
+                   </p>
+                </div>
+                    <div class="wrapper-5">                       
+                       <div class="orange-button-popup">  <a href="${card.link_to_live_version}" > See Live<img src="./images/live.png"></a> </div>
+                       <div class="orange-button-popup">  <a href="${card.link_to_source}" > See Source  <img src="./images/git-source.png"></div>
+                    </div>             
+            </div>
+        </div>    
+    </div>  
+    </div>            
     `;
-    return html_str;
+
+
+        return html_str;
+    
 
 }
 
@@ -247,8 +284,7 @@ function show_project_intro() {
     overlay.style.display = 'flex';     
     container_pop_up.style.display = 'flex';    
 
-    close_popup = document.getElementById('close-popup');
-    console.log(close_popup);
+    close_popup = document.getElementById('close-popup');    
 
     close_popup.addEventListener('click',close_popup_func);    
 
@@ -315,7 +351,7 @@ card_1.addEventListener('click',show_card_1);
 card_2.addEventListener('click',show_card_2);
 card_3.addEventListener('click',show_card_3);
 card_4.addEventListener('click',show_card_4);
-card_4.addEventListener('click',show_card_5);
+card_5.addEventListener('click',show_card_5);
 
 
 
