@@ -9,7 +9,6 @@ a {
 }
 
 @media only screen and (min-width: 700px) {
-
   .mobile-menu {
     display: none;
   }
@@ -1079,7 +1078,7 @@ a {
     width: 134px;
     height: 28px;
     padding: 12px;
-    gap: 12px;       
+    gap: 12px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1094,6 +1093,7 @@ a {
     background: #ff6b00;
     flex: 1;
   }
+
   .orange-button-popup img {
     padding-left: 24px;
   }
@@ -2055,7 +2055,7 @@ a {
   }
 
   .container-pop-up {
-    box-sizing: border-box;      
+    box-sizing: border-box;
     padding: 16px;
     gap: 24px;
     position: fixed;
@@ -2077,7 +2077,7 @@ a {
   .wrapper-1 {
     display: flex;
     flex-direction: row;
-    flex: 1; 
+    flex: 1;
   }
 
   .wrapper-2 {
@@ -2171,7 +2171,7 @@ a {
     list-style: none;
     display: flex;
     column-gap: 15px;
-    margin-left: 0px;    
+    margin-left: 0px; 
   }
 
   .works-description-popup {
@@ -2190,7 +2190,7 @@ a {
     width: 134px;
     height: 28px;
     padding: 12px;
-    gap: 12px;    
+    gap: 12px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
