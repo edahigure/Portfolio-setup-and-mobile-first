@@ -969,13 +969,12 @@ a {
     background: #fff;
     border: 1px solid #dfe1e6;
     z-index: 2;
-    overflow-x: scroll; 
+    overflow-x: scroll;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     padding-left: 24px;
-
   }
 
   .wrapper-1 {
@@ -990,7 +989,7 @@ a {
     flex: 1;
     justify-items: flex-end;
     gap: 24px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
 
   .wrapper-3 {
@@ -1010,7 +1009,7 @@ a {
   .wrapper-5 {
     display: flex;
     flex-direction: row;
-    flex: .1;
+    flex: 0.1;
     gap: 24px;
   }
 
@@ -1019,17 +1018,17 @@ a {
     flex: 1;
   }
 
-  .red {    
+  .red {
     background-color: white;
-    flex: 1;    
+    flex: 1;
   }
 
   .yellow {
     background-color: white;
-    flex: .1;
+    flex: 0.1;
   }
 
-  .green { 
+  .green {
     background-color: white;
     flex: 1;
   }
@@ -1046,11 +1045,11 @@ a {
 
   .title-multi-popup-mobile {
     display: none;
-    float:right;  
+    float: right;
   }
 
   .title-multi-popup-desktop {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -1064,7 +1063,7 @@ a {
   }
 
   .image-work-popup {
-    max-height:100%;
+    max-height: 100%;
   }
 
   .works-description-popup {
@@ -1080,7 +1079,7 @@ a {
     width: 134px;
     height: 28px;
     padding: 12px;
-    gap: 12px;        
+    gap: 12px;       
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1092,12 +1091,12 @@ a {
     justify-content: center;
     letter-spacing: 0.03em;
     color: #fff;
-    background: #ff6b00; 
-    flex:1;
+    background: #ff6b00;
+    flex: 1;
   }
-  .orange-button-popup img { 
+  .orange-button-popup img {
     padding-left: 24px;
-  }  
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -2052,17 +2051,17 @@ a {
     background: #979493;
     display: none;
     z-index: 1;
-    mix-blend-mode:multiply;
+    mix-blend-mode: multiply;
   }
 
   .container-pop-up {
-    box-sizing: border-box;          
+    box-sizing: border-box;      
     padding: 16px;
     gap: 24px;
     position: fixed;
     width: 360px;
     height: 500px;
-    left: calc(50% - 343px/2);
+    left: calc(50% - 343px / 2);
     top: 10px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -2078,7 +2077,7 @@ a {
   .wrapper-1 {
     display: flex;
     flex-direction: row;
-    flex: 1;      
+    flex: 1; 
   }
 
   .wrapper-2 {
@@ -2092,9 +2091,10 @@ a {
   .wrapper-3 {
     display: flex;
     flex-direction: column;
-    flex: 1; 
+    flex: 1;
     gap: 16px;
   }
+
   .wrapper-4 {
     display: flex;
     flex-direction: column;
@@ -2120,10 +2120,10 @@ a {
 
   .yellow {
     background-color: white;
-    flex: .1;
+    flex: 0.1;
   }
 
-  .green { 
+  .green {
     background-color: white;
     flex: 1;
   }
@@ -2140,7 +2140,7 @@ a {
 
   .white {
     background-color: white;
-    flex: .1;
+    flex: 0.1;
   }
 
   .title-multi-popup-mobile {
@@ -2154,7 +2154,7 @@ a {
 
   .title-multi-popup-desktop {
     display: none;
-    float:left;
+    float: left;
   }
 
   .cross-popup {
@@ -2172,7 +2172,6 @@ a {
     display: flex;
     column-gap: 15px;
     margin-left: 0px;    
-    padding: 0px;
   }
 
   .works-description-popup {
@@ -2191,7 +2190,7 @@ a {
     width: 134px;
     height: 28px;
     padding: 12px;
-    gap: 12px;        
+    gap: 12px;    
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -2204,20 +2203,20 @@ a {
     letter-spacing: 0.03em;
     color: #fff;
     background: #ff6b00;
-    flex:1;
+    flex: 1;
   }
 
   .img-popup {
-     width: 28px;
-     height: 28px;
-     flex: 1;
+    width: 28px;
+    height: 28px;
+    flex: 1;
   }
 
   .orange-button-popup:hover {
     width: 134px;
     height: 28px;
     padding: 12px;
-    gap: 12px;        
+    gap: 12px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -2231,6 +2230,6 @@ a {
     color: #ff6b00;
     background: #fff5e1;
     border: 1px solid #ff6b00;
-    flex:1;
+    flex: 1;
   }
 }
