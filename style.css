@@ -2170,7 +2170,7 @@ a {
   .button-container-popup {
     list-style: none;
     display: flex;
-    column-gap: 15px;  
+    column-gap: 15px;
   }
 
   .works-description-popup {
