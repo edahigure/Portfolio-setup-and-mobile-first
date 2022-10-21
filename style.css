@@ -8,7 +8,6 @@ a {
   text-decoration: none;
 }
 
-
 @media only screen and (min-width: 700px) {
 
   .mobile-menu {
@@ -453,7 +452,7 @@ a {
     margin-bottom: 24px;
   }
 
-   .button3 {
+  .button3 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -471,7 +470,7 @@ a {
     color: white;
   }
 
-   .button3:hover {
+  .button3:hover {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -945,32 +944,32 @@ a {
     padding-top: 12px;
   }
 
-  .overlay {  
+  .overlay {
     position: fixed;
     width: 1440px;
     height: 1519px;
     top: 0%;
     left: 1%;
     right: 1%;
-    margin-right: auto; 
-    margin-left: auto; 
+    margin-right: auto;
+    margin-left: auto;
     background: #979493;
     display: none;
     z-index: 1;
-    mix-blend-mode:multiply;
+    mix-blend-mode: multiply;
   }
 
   .container-pop-up {
-    box-sizing: border-box;                   
+    box-sizing: border-box;
     position: fixed;
     height: 570px;
     width: 1056px;
     left: 52px;
     top: 22px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     z-index: 2;
-    overflow-x: scroll;  
+    overflow-x: scroll; 
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
@@ -979,80 +978,75 @@ a {
 
   }
 
-
-  .wrapper-1 {      
+  .wrapper-1 {
     display: flex;
-    flex-direction: row;    
-    flex: 1;   
+    flex-direction: row;
+    flex: 1;
   }
 
-  .wrapper-2 {    
-    display: flex;    
-    flex-direction: row;    
-    flex: 1; 
+  .wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
     justify-items: flex-end;
     gap: 24px;
     margin-bottom:30px;
   }
 
-  .wrapper-3 {    
-    display: flex;    
-    flex-direction: row;      
-    flex: 10; 
+  .wrapper-3 {
+    display: flex;
+    flex-direction: row;
+    flex: 10;
     gap: 24px;
     margin-bottom: 24px;
   }
 
   .wrapper-4 {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     flex: 1;
   }
 
   .wrapper-5 {
     display: flex;
-    flex-direction: row;     
+    flex-direction: row;
     flex: .1;
     gap: 24px;
   }
 
-  
   .blue {
-  
-    background-color: white;    
-    flex: 1;
-  }
-
-  .red {
-    
     background-color: white;
     flex: 1;
-    
   }
 
-  .yellow {    
-    background-color: white;            
+  .red {    
+    background-color: white;
+    flex: 1;    
+  }
+
+  .yellow {
+    background-color: white;
     flex: .1;
   }
 
-  .green {    
-    background-color: white;  
-    flex: 1;            
+  .green { 
+    background-color: white;
+    flex: 1;
   }
 
-  .orange {    
-    background-color: white;  
-    flex: 1;          
+  .orange {
+    background-color: white;
+    flex: 1;
   }
 
   .brown {
-    background-color: white;  
-    flex: 1;          
+    background-color: white;
+    flex: 1;
   }
 
   .title-multi-popup-mobile {
     display: none;
-    float:right;    
+    float:right;  
   }
 
   .title-multi-popup-desktop {
@@ -1061,51 +1055,49 @@ a {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #172b4d; 
-    
+    color: #172b4d;
   }
-  .cross-popup {    
+
+  .cross-popup {
     justify-content: flex-end;
     padding: 37px;
-  } 
-
-  .image-work-popup {    
-    max-height:100%;    
   }
 
-  .works-description-popup {   
+  .image-work-popup {
+    max-height:100%;
+  }
+
+  .works-description-popup {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #344563;  
-  }  
+    color: #344563;
+  }
 
   .orange-button-popup {
     width: 134px;
-    height: 28px;    
+    height: 28px;
     padding: 12px;
-    gap: 12px;            
+    gap: 12px;        
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;    
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;    
-    background: #FF6B00; 
+    color: #fff;
+    background: #ff6b00; 
     flex:1;
   }
   .orange-button-popup img { 
     padding-left: 24px;
-  }
-  
-
+  }  
 }
 
 @media only screen and (max-width: 700px) {
@@ -2048,7 +2040,7 @@ a {
     margin-bottom: 5px;
   }
 
-  .overlay {  
+  .overlay {
     position: fixed;
     width: 375px;
     height: 600px;
@@ -2064,7 +2056,7 @@ a {
   }
 
   .container-pop-up {
-    box-sizing: border-box;           
+    box-sizing: border-box;          
     padding: 16px;
     gap: 24px;
     position: fixed;
@@ -2072,122 +2064,116 @@ a {
     height: 500px;
     left: calc(50% - 343px/2);
     top: 10px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     z-index: 2;
-    overflow-y: scroll;    
+    overflow-y: scroll;
   }
 
-  .wrapper-0{
+  .wrapper-0 {
     display: flex;
     flex-direction: column;
   }
 
-  .wrapper-1 {      
+  .wrapper-1 {
     display: flex;
-    flex-direction: row;    
-    flex: 1;                  
+    flex-direction: row;
+    flex: 1;      
   }
 
-  .wrapper-2 {    
-    display: flex;    
-    flex-direction: row;    
-    flex: 1; 
-    gap: 16px; 
-    margin-bottom: 16px;   
-  }
-
-  .wrapper-3 {    
-    display: flex;    
-    flex-direction: column;    
-    flex: 1; 
-    gap: 16px;
-    
-  }
-  .wrapper-4 {    
-    display: flex;    
-    flex-direction: column;    
-    flex: 1; 
-  }
-
-  .wrapper-5 {    
-    display: flex;    
-    flex-direction: row;    
-    flex: 1; 
-    gap: 16px;
-  }
-  
-  
-  .blue {
-    background-color: white;    
+  .wrapper-2 {
+    display: flex;
+    flex-direction: row;
     flex: 1;
-    
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .wrapper-3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    gap: 16px;
+  }
+  .wrapper-4 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .wrapper-5 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 16px;
+  }
+
+  .blue {
+    background-color: white;
+    flex: 1;
   }
 
   .red {
-    
     background-color: white;
     flex: 1;
-    
   }
 
-  .yellow {    
-    background-color: white;            
+  .yellow {
+    background-color: white;
     flex: .1;
   }
 
-  .green {    
-    background-color: white;  
-    flex: 1;            
+  .green { 
+    background-color: white;
+    flex: 1;
   }
 
-  .orange {    
-    background-color: white;  
-    flex: 1;          
+  .orange {
+    background-color: white;
+    flex: 1;
   }
 
   .brown {
-    background-color: white;  
-    flex: 1;          
+    background-color: white;
+    flex: 1;
   }
 
   .white {
-    background-color: white;  
-    flex: .1;          
+    background-color: white;
+    flex: .1;
   }
 
-  .title-multi-popup-mobile {    
+  .title-multi-popup-mobile {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 44px;    
-    color: #091e42;              
+    line-height: 44px;
+    color: #091e42;
   }
 
   .title-multi-popup-desktop {
     display: none;
-    float:left;       
+    float:left;
   }
 
   .cross-popup {
     display: flex;
     justify-content: flex-end;
     padding: 37px;
-  }  
-
-  .image-work-popup {    
-    width: 100%;                
   }
 
-  .button-container-popup {    
+  .image-work-popup {
+    width: 100%;
+  }
+
+  .button-container-popup {
     list-style: none;
     display: flex;
     column-gap: 15px;
     margin-left: 0px;    
     padding: 0px;
   }
-      
 
   .works-description-popup {
     width: 300px;
@@ -2197,47 +2183,46 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #091e42;    
+    color: #091e42;
     margin-bottom: 24px;
   }
 
-
   .orange-button-popup {
     width: 134px;
-    height: 28px;    
+    height: 28px;
     padding: 12px;
-    gap: 12px;            
+    gap: 12px;        
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;    
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;    
-    background: #FF6B00; 
+    color: #fff;
+    background: #ff6b00;
     flex:1;
   }
 
   .img-popup {
      width: 28px;
-     height: 28px;    
+     height: 28px;
      flex: 1;
   }
 
   .orange-button-popup:hover {
     width: 134px;
-    height: 28px;    
+    height: 28px;
     padding: 12px;
-    gap: 12px;            
+    gap: 12px;        
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 24px;    
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -2248,6 +2233,4 @@ a {
     border: 1px solid #ff6b00;
     flex:1;
   }
-
-
 }
