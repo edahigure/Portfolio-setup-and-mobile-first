@@ -2113,9 +2113,9 @@ a {
     flex: 1;
   }
 
-  .red {    
+  .red {
     flex: 1;
-    margin-right: 48px;    
+    margin-right: 48px;
   }
 
   .yellow {
@@ -2159,13 +2159,13 @@ a {
   .cross-popup {
     display: flex;
     justify-content: center;
-    align-content: center;    
+    align-content: center;
     padding-top: 36px;
   }
 
   .image-work-popup {
-      max-width: 90%;
-      height: auto;
+    max-width: 90%;
+    height: auto;
   }
 
   .button-container-popup {
