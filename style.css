@@ -967,7 +967,7 @@ a {
     top: 22px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    z-index: 2;    
+    z-index: 2;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -2063,7 +2063,7 @@ a {
     top: 10px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    z-index: 2;  
+    z-index: 2;
   }
 
   .wrapper-0 {
@@ -2074,7 +2074,7 @@ a {
   .wrapper-1 {
     display: flex;
     flex-direction: row;
-    flex: 1;    
+    flex: 1;
     height: 82px;
     margin-right: 80px;
   }
@@ -2113,15 +2113,13 @@ a {
     flex: 1;
   }
 
-  .red {
-    
+  .red {    
     flex: 1;
-    margin-right: 48px;
-    
+    margin-right: 48px;    
   }
 
   .yellow {
-    background-color: white;        
+    background-color: white;
   }
 
   .green {
@@ -2134,9 +2132,9 @@ a {
     flex: 1;
   }
 
-  .brown {    
+  .brown {
     flex: 1;
-    margin-right: 68px;    
+    margin-right: 68px;
   }
 
   .white {
@@ -2150,25 +2148,24 @@ a {
     font-weight: 400;
     font-size: 24px;
     line-height: 44px;
-    color: #091e42;    
+    color: #091e42;
   }
 
   .title-multi-popup-desktop {
     display: none;
-    float: left;    
+    float: left;
   }
 
   .cross-popup {
     display: flex;
-    justify-content: center;      
-    align-content: center;      
+    justify-content: center;
+    align-content: center;    
     padding-top: 36px;
   }
 
-  .image-work-popup{
+  .image-work-popup {
       max-width: 90%;
       height: auto;
-      
   }
 
   .button-container-popup {
@@ -2177,13 +2174,13 @@ a {
     column-gap: 15px;
   }
 
-  .works-description-popup {  
+  .works-description-popup {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #091e42;    
+    color: #091e42;
   }
 
   .orange-button-popup {
@@ -2205,8 +2202,6 @@ a {
     background: #ff6b00;
     flex: 1;
   }
-
-
 
   .orange-button-popup:hover {
     width: 134px;
