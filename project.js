@@ -18,7 +18,7 @@ let intro_obj =
     description: Lorem_Ipsum_str,        
     featured: 'feature-2',
     image: './images/Snapshoot_Portfolio_big.png',
-    technologies: [ 'css','html','bootstrap','Ruby','Ruby on rails'],
+    technologies: [ 'css','html','bootstrap','Ruby on rails','Ruby'],
     link_to_live_version: 'https://edahigure.github.io/Portfolio-setup-and-mobile-first/',
     link_to_source: 'https://github.com/edahigure/Portfolio-setup-and-mobile-first',
     title_post: 'Multi Post Stories'
@@ -238,7 +238,7 @@ function create_html_popup(card)
             <div class="wrapper-4">                
                 <div class="brown"> 
                    <p class="works-description-popup">
-                ${card.description}
+                       ${card.description}
                    </p>
                 </div>
                     <div class="wrapper-5">                       
@@ -250,11 +250,7 @@ function create_html_popup(card)
     </div>  
     </div>            
     `;
-
-
-        return html_str;
-    
-
+        return html_str;    
 }
 
 // Here a global variable I need

@@ -946,7 +946,7 @@ a {
   .overlay {
     position: fixed;
     width: 1440px;
-    height: 1519px;
+    height: 870px;
     top: 0%;
     left: 1%;
     right: 1%;
@@ -961,15 +961,13 @@ a {
   .container-pop-up {
     box-sizing: border-box;
     position: fixed;
-    height: 570px;
-    width: 1056px;
-    left: 52px;
+    height: 731px;
+    width: 1156px;
+    left: 10%;
     top: 22px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    z-index: 2;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    z-index: 2;    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -2059,14 +2057,13 @@ a {
     padding: 16px;
     gap: 24px;
     position: fixed;
-    width: 360px;
-    height: 500px;
+    width: 343px;
+    height: 718px;
     left: calc(50% - 343px / 2);
     top: 10px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    z-index: 2;
-    overflow-y: scroll;
+    z-index: 2;  
   }
 
   .wrapper-0 {
@@ -2077,7 +2074,9 @@ a {
   .wrapper-1 {
     display: flex;
     flex-direction: row;
-    flex: 1;
+    flex: 1;    
+    height: 82px;
+    margin-right: 80px;
   }
 
   .wrapper-2 {
@@ -2106,6 +2105,7 @@ a {
     flex-direction: row;
     flex: 1;
     gap: 16px;
+    margin-right: 48px;
   }
 
   .blue {
@@ -2114,13 +2114,14 @@ a {
   }
 
   .red {
-    background-color: white;
+    
     flex: 1;
+    margin-right: 48px;
+    
   }
 
   .yellow {
-    background-color: white;
-    flex: 0.1;
+    background-color: white;        
   }
 
   .green {
@@ -2133,9 +2134,9 @@ a {
     flex: 1;
   }
 
-  .brown {
-    background-color: white;
+  .brown {    
     flex: 1;
+    margin-right: 68px;    
   }
 
   .white {
@@ -2149,22 +2150,25 @@ a {
     font-weight: 400;
     font-size: 24px;
     line-height: 44px;
-    color: #091e42;
+    color: #091e42;    
   }
 
   .title-multi-popup-desktop {
     display: none;
-    float: left;
+    float: left;    
   }
 
   .cross-popup {
     display: flex;
-    justify-content: flex-end;
-    padding: 37px;
+    justify-content: center;      
+    align-content: center;      
+    padding-top: 36px;
   }
 
-  .image-work-popup {
-    width: 100%;
+  .image-work-popup{
+      max-width: 90%;
+      height: auto;
+      
   }
 
   .button-container-popup {
@@ -2173,16 +2177,13 @@ a {
     column-gap: 15px;
   }
 
-  .works-description-popup {
-    width: 300px;
-    height: 247px;
+  .works-description-popup {  
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #091e42;
-    margin-bottom: 24px;
+    color: #091e42;    
   }
 
   .orange-button-popup {
@@ -2205,11 +2206,7 @@ a {
     flex: 1;
   }
 
-  .img-popup {
-    width: 28px;
-    height: 28px;
-    flex: 1;
-  }
+
 
   .orange-button-popup:hover {
     width: 134px;
