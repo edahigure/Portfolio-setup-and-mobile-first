@@ -963,7 +963,7 @@ a {
 
   .container-pop-up {
     box-sizing: border-box;
-    position: fixed;    
+    position: fixed;
     left: 10%;
     top: 5%;
     width: 80%;
@@ -973,7 +973,7 @@ a {
     z-index: 2;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap; 
   }
 
   .wrapper-0 {
@@ -993,36 +993,36 @@ a {
     width: 54%;
     display: flex;
     flex-direction: row;
-    flex: 0.14;   
-    margin-bottom: 5%; 
+    flex: 0.14;
+    margin-bottom: 5%;
   }
 
   .wrapper-3 {
     display: flex;
-    flex-direction: row;    
-    height: 50%
+    flex-direction: row;
+    height: 50%;
   }
 
   .wrapper-4 {
     display: flex;
     flex-direction: column;
-    flex: 0.64;   
-    margin-left:2%; 
+    flex: 0.64;
+    margin-left: 2%;
   }
 
   .color-1 {
     flex: 1;
   }
 
-  .color-2 {    
-    flex: .05;
+  .color-2 {
+    flex: 0.05;
     display: flex;
     align-items: center;
     padding-left: 2%;
   }
 
   .color-3 {
-    background-color: none;        
+    background-color: none;   
   }
 
   .languages-popup {
@@ -1039,25 +1039,24 @@ a {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #091e42;    
+    color: #091e42;
     min-width: 15%;
   }
 
   .languages-popup:hover {
     color: black;
     background: #fff5e1;
-    border: 1px solid #f55800;    
+    border: 1px solid #f55800; 
     min-width: 15%;
   }
 
   .color-4 {
-    background-color: none;
-    
+    background-color: none;    
   }
 
   .color-5 {
     background-color: none;
-    height: 92%; 
+    height: 92%;
   }
 
   .color-6 {
@@ -1068,30 +1067,30 @@ a {
   .wrapper-5 {
     display: flex;
     flex-direction: row;
-    align-items: flex-end; 
-    justify-items: left;   
-    gap: 3%; 
-    height: 20%            
+    align-items: flex-end;
+    justify-items: left;
+    gap: 3%;
+    height: 20%;
   }
 
   .color-7 {
     background-color: green;
     display: flex;
-    align-items: flex-end;  
-    width: 50%;  
+    align-items: flex-end;
+    width: 50%;
     height: 80%;
   }
 
   .color-8 {
-    background-color: blue; 
+    background-color: blue;
     display: flex;
     align-items: flex-end;
-    width: 50%;  
-    height: 80%;   
+    width: 50%;
+    height: 80%;
   }
 
   .color-9 {
-    background-color: red; 
+    background-color: red;
     flex: 1;
   }
 
@@ -1110,10 +1109,10 @@ a {
   }
 
   .cross-popup {
-    justify-content: flex-end;   
+    justify-content: flex-end;
   }
 
-  .image-work-popup {    
+  .image-work-popup {
     height: 100%;
     width: 100%;
   }
@@ -1124,26 +1123,25 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #344563; 
+    color: #344563;
     width: 100%;
-    height: 100%;    
-    
+    height: 100%;
   }
 
-  .orange-button-popup {        
+  .orange-button-popup {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700;    
+    font-weight: 700;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     letter-spacing: 0.03em;
     color: #fff;
-    background: #ff6b00;          
-    padding:2%;   
-    width: 100%; 
-    height: 100%; 
+    background: #ff6b00;
+    padding:2%;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -2091,10 +2089,8 @@ a {
     position: fixed;
     width: 100%;
     height: 100%;
-
     left: 1%;
     top: 1%;
-    
     margin-right: auto;
     margin-left: auto;
     background: #979493;
@@ -2105,7 +2101,7 @@ a {
 
   .container-pop-up {
     box-sizing: border-box;
-    position: fixed;    
+    position: fixed;
     left: 26%;
     top: 5%;
     width: 48%;
