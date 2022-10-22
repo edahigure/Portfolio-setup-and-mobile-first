@@ -284,7 +284,7 @@ function show_project_intro() {
     let container_pop_up = document.querySelector('.container-pop-up');
     
     
-    console.log('eeeee',container_pop_up.style.width);
+    
 
     overlay.style.display = 'flex';     
     container_pop_up.style.display = 'flex';    
