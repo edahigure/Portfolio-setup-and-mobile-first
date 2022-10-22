@@ -18,7 +18,6 @@ let intro_obj =
     description: Lorem_Ipsum_str,        
     featured: 'feature-2',
     image: './images/Snapshoot_Portfolio_big.png',
-    image_mobile: './images/Snapshoot_Portfolio.png',
     technologies: [ 'css','html','bootstrap','Ruby on rails','Ruby'],
     link_to_live_version: 'https://edahigure.github.io/Portfolio-setup-and-mobile-first/',
     link_to_source: 'https://github.com/edahigure/Portfolio-setup-and-mobile-first',
@@ -158,7 +157,7 @@ let bigString =`
 `;
 
 for(let i = 0 ; i<project_array.length; i++ ) {
-    
+    console.log(i);
     
     
     if(i==0){
@@ -195,7 +194,7 @@ for(let i = 0 ; i<project_array.length; i++ ) {
 
 bigString += '</div>\n';
 
-
+console.log(bigString);
 
 let wrapper_works = document.querySelector('.wrapper-works');
 wrapper_works.innerHTML = bigString ;
@@ -211,49 +210,13 @@ function create_html_popup(card)
                      
     <div class="wrapper-0">        
         <div class="wrapper-1">        
-            <div class="color-1">
-                <h2 class="title-multi-popup-desktop" >
-                    ${card.title_desktop}
-                </h2>
-                <h2 class="title-multi-popup-mobile" >
-                    ${card.title_mobile}
-                </h2>
-             
+            <div class="green">                 
             </div>                
-            <div class="color-2"> 
-                <div class="cross-popup">     
-                <a  id="close-popup"><img src="./images/cross_2.png"></a>
-                </div> 
+            <div class="yellow">                 
             </div>            
         </div>
 
-        <div class="wrapper-2">
-           <div class="languages-popup">${card.technologies[1]}</div>
-           <div class="languages-popup">${card.technologies[2]}</div>
-           <div class="languages-popup">${card.technologies[3]}</div>                          
-        </div>  
-
-        <div class="wrapper-3">        
-            <div class="color-6">  
-            <img src="${card.image}" class="image-work-popup"> 
-            </div>
-            <div class="wrapper-4">                
-                <div class="color-5"> 
-                   <p class="works-description-popup">                       
-                   ${card.description}
-                   </p>
-                </div>
-                <div class="wrapper-5">                     
-                    <div class="color-7">
-                    <div class="orange-button-popup">  <a href="${card.link_to_live_version}" > See Live<img src="./images/live.png"></a> </div>
-                    </div> 
-                    <div class="color-8"> 
-                    <div class="orange-button-popup">  <a href="${card.link_to_source}" > See Source  <img src="./images/git-source.png"></div>
-                    </div>                     
-                </div>             
-            </div>
-        </div>    
-    </div>  
+</div>  
     </div>            
     `;
     return html_str;    
@@ -283,11 +246,11 @@ function show_project_intro() {
     let overlay = document.querySelector('.overlay');
     let container_pop_up = document.querySelector('.container-pop-up');
     
-    
-    console.log('eeeee',container_pop_up.style.width);
-
     overlay.style.display = 'flex';     
     container_pop_up.style.display = 'flex';    
+
+    
+
 
     close_popup = document.getElementById('close-popup');    
     close_popup.addEventListener('click',close_popup_func);    
@@ -311,7 +274,7 @@ function show_card(card) {
     container_pop_up.style.display = 'flex';    
 
     close_popup = document.getElementById('close-popup');
-    
+    console.log(close_popup);
 
     close_popup.addEventListener('click',close_popup_func);    
 
