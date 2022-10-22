@@ -906,6 +906,11 @@ a {
     margin-left: 40px;
   }
 
+  .validate-email {
+    display: none;
+    color: red;
+  }
+
   .get-in-touch-form:hover {
     height: 48px;
     width: 137px;
