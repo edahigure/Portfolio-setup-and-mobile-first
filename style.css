@@ -1020,11 +1020,7 @@ a {
     align-items: center;
     padding-left: 2%;
   }
-
-  .color-3 {
-    background-color: none;
-  }
-
+  
   .languages-popup {
     box-sizing: border-box;
     display: flex;
@@ -1050,16 +1046,11 @@ a {
     min-width: 15%;
   }
 
-  .color-4 {
-    background-color: none;
-  }
-
-  .color-5 {    
+  .color-5 {
     height: 92%;
   }
 
-  .color-6 {
-    background-color: brown;
+  .color-6 {  
     flex: 1;
   }
 
@@ -1072,24 +1063,21 @@ a {
     height: 20%;
   }
 
-  .color-7 {
-    background-color: green;
+  .color-7 {    
     display: flex;
     align-items: flex-end;
     width: 50%;
     height: 80%;
   }
 
-  .color-8 {
-    background-color: blue;
+  .color-8 {    
     display: flex;
     align-items: flex-end;
     width: 50%;
     height: 80%;
   }
 
-  .color-9 {
-    background-color: red;
+  .color-9 {    
     flex: 1;
   }
 
