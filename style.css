@@ -907,8 +907,8 @@ a {
   }
 
   .validate-email {
-      display: none;
-      color: red;
+    display: none;
+    color: red;
   }
 
   .get-in-touch-form:hover {
