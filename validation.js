@@ -20,6 +20,3 @@ function is_valid_email(event) {
 
 
 form.addEventListener("submit", is_valid_email );
-
-
-
